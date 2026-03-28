@@ -2,6 +2,8 @@
 
 The **ZuPSC** is the next-generation NSLS-II Power Supply Controller built on a Zynq UltraScale+ FPGA platform. It combines FPGA-based real-time control with embedded software to deliver high-performance regulation, data acquisition, and system diagnostics.
 
+
+![ZuPSC Board](docs/zupsc_pic.png)
 ---
 
 ## Overview
