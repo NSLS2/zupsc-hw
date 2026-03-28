@@ -5,6 +5,9 @@ The **ZuPSC** is the next-generation NSLS-II Power Supply Controller built on a 
   <img src="docs/zupsc_pic.png" width="600"><br>
   <em>ZuPSC chassis showing FPGA processing board and channel electronics</em>
 </p>
+
+---
+
 ## Overview
 
 - **FPGA (PL)**  
