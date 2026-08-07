@@ -1,0 +1,295 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "9.0.4-9.0.4-0~ubuntu22.04.1"
+    },
+    "CreationDate": "2026-01-05T08:42:25-05:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "psc_daughter_brd",
+      "GUID": "7073635f-6461-4756-9768-7465725f6272",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 40.05,
+      "Y": 160.05
+    },
+    "LayerNumber": 10,
+    "BoardThickness": 1.6,
+    "Finish": "Immersion gold",
+    "ImpedanceControlled": true
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.15,
+      "PadToTrack": 0.15,
+      "TrackToTrack": 0.15,
+      "MinLineWidth": 0.12
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.15,
+      "MinLineWidth": 0.15,
+      "TrackToRegion": 0.25,
+      "RegionToRegion": 0.25
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "psc_daughter_brd-F_Cu - L1-sig.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "psc_daughter_brd-In1_Cu - L2-gnd.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "psc_daughter_brd-In2_Cu - L3-sig.gbr",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "psc_daughter_brd-In3_Cu - L4-gnd.gbr",
+      "FileFunction": "Copper,L9,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "psc_daughter_brd-In4_Cu - L5-pwr.gbr",
+      "FileFunction": "Copper,L11,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "psc_daughter_brd-In5_Cu - L6-pwr.gbr",
+      "FileFunction": "Copper,L13,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "psc_daughter_brd-In6_Cu - L7-gnd.gbr",
+      "FileFunction": "Copper,L15,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "psc_daughter_brd-In7_Cu - L8-sig.gbr",
+      "FileFunction": "Copper,L17,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "psc_daughter_brd-In8_Cu - L9-gnd.gbr",
+      "FileFunction": "Copper,L19,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "psc_daughter_brd-B_Cu - L10-sig.gbr",
+      "FileFunction": "Copper,L10,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "psc_daughter_brd-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "psc_daughter_brd-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "psc_daughter_brd-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "psc_daughter_brd-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "psc_daughter_brd-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "psc_daughter_brd-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "psc_daughter_brd-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Green",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu - L1-sig"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R213G213B213",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "F.Cu - L1-sig/In1.Cu - L2-gnd",
+      "Notes": "Type: dielectric layer 1 (from F.Cu - L1-sig to In1.Cu - L2-gnd)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In1.Cu - L2-gnd"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R92G17B6",
+      "Thickness": 0.1825,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In1.Cu - L2-gnd/In2.Cu - L3-sig",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu - L2-gnd to In2.Cu - L3-sig)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In2.Cu - L3-sig"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In2.Cu - L3-sig/In3.Cu - L4-gnd",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu - L3-sig to In3.Cu - L4-gnd)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In3.Cu - L4-gnd"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1825,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In3.Cu - L4-gnd/In4.Cu - L5-pwr",
+      "Notes": "Type: dielectric layer 4 (from In3.Cu - L4-gnd to In4.Cu - L5-pwr)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In4.Cu - L5-pwr"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In4.Cu - L5-pwr/In5.Cu - L6-pwr",
+      "Notes": "Type: dielectric layer 5 (from In4.Cu - L5-pwr to In5.Cu - L6-pwr)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In5.Cu - L6-pwr"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1825,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In5.Cu - L6-pwr/In6.Cu - L7-gnd",
+      "Notes": "Type: dielectric layer 6 (from In5.Cu - L6-pwr to In6.Cu - L7-gnd)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In6.Cu - L7-gnd"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In6.Cu - L7-gnd/In7.Cu - L8-sig",
+      "Notes": "Type: dielectric layer 7 (from In6.Cu - L7-gnd to In7.Cu - L8-sig)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In7.Cu - L8-sig"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1825,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In7.Cu - L8-sig/In8.Cu - L9-gnd",
+      "Notes": "Type: dielectric layer 8 (from In7.Cu - L8-sig to In8.Cu - L9-gnd)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In8.Cu - L9-gnd"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In8.Cu - L9-gnd/B.Cu - L10-sig",
+      "Notes": "Type: dielectric layer 9 (from In8.Cu - L9-gnd to B.Cu - L10-sig)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu - L10-sig"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Green",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
