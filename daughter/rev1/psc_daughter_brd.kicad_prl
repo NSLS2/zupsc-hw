@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 12,
+    "active_layer": 6,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -49,10 +49,11 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_82000025",
+    "visible_layers": "00000000_00000000_00000000_a2001005",
     "zone_display_mode": 0
   },
   "git": {
+    "integration_disabled": false,
     "repo_password": "",
     "repo_type": "",
     "repo_username": "",

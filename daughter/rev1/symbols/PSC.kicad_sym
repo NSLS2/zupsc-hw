@@ -7905,7 +7905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "myparts:LFCSP16_ADA4945-1ACPZ-R2_ADI-L"
+		(property "Footprint" "myparts:QFN50P300X300X80-17N"
 			(at -5.842 -41.91 0)
 			(effects
 				(font
@@ -8307,14 +8307,14 @@
 			(pin output line
 				(at 8.89 -2.54 180)
 				(length 5.08)
-				(name "+"
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8325,14 +8325,14 @@
 			(pin output line
 				(at 8.89 -7.62 180)
 				(length 5.08)
-				(name "-"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "11"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8625,7 +8625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E-20-1_ADI"
+		(property "Footprint" "myparts:E-20-1_ADI"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -8652,14 +8652,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "ADR1001AEZ"
@@ -10321,7 +10313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "myparts:R_8_ADI-M"
+		(property "Footprint" "myparts:R_8_ADI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10396,54 +10388,6 @@
 			)
 		)
 		(symbol "ADUM5240ARZ_0_1"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -16.51)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -16.51) (xy 34.29 -16.51)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 34.29 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 34.29 -16.51) (xy 34.29 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin unspecified line
 				(at 0 1.27 0)
 				(length 7.62)
@@ -10500,6 +10444,18 @@
 			)
 		)
 		(symbol "ADUM5240ARZ_1_1"
+			(rectangle
+				(start 7.62 4.445)
+				(end 34.29 -16.51)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
 			(pin unspecified line
 				(at 0 -3.81 0)
 				(length 7.62)
@@ -10616,7 +10572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "myparts:R_8_ADI-M"
+		(property "Footprint" "myparts:R_8_ADI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10664,54 +10620,6 @@
 			)
 		)
 		(symbol "ADUM5242ARZ_0_1"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -16.51)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -16.51) (xy 34.29 -16.51)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 34.29 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 34.29 -16.51) (xy 34.29 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin unspecified line
 				(at 0 1.27 0)
 				(length 7.62)
@@ -10723,24 +10631,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 41.91 1.27 180)
-				(length 7.62)
-				(name "VISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10768,6 +10658,18 @@
 			)
 		)
 		(symbol "ADUM5242ARZ_1_1"
+			(rectangle
+				(start 7.62 5.08)
+				(end 34.29 -15.875)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
 			(pin unspecified line
 				(at 0 -3.81 0)
 				(length 7.62)
@@ -10815,6 +10717,24 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 1.27 180)
+				(length 7.62)
+				(name "VISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11880,7 +11800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFN-16_DE_LIT"
+		(property "Footprint" "myparts:DFN-16_DE_LIT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11907,14 +11827,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "LTC2378IDE-20#PBF"
@@ -15472,5 +15384,6 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

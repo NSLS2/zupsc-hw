@@ -832,13 +832,31 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Amphenol"
+		(property "MFG" "Amphenol"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "61082-061400LF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "2.53"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7862,6 +7880,728 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "ADA4945-1"
+		(pin_names
+			(offset 0.127)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U36"
+			(at -32.766 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADA4945-1"
+			(at -32.766 7.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "myparts:QFN50P300X300X80-17N"
+			(at -5.842 -41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4945-1.pdf"
+			(at -5.334 -36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC ADC DRIVER 16LFCSP"
+			(at -6.604 -31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at -4.826 -38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ADA4945-1ACPZ-R7"
+			(at -5.08 -34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "single differential opamp"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ADA4945-1_0_1"
+			(polyline
+				(pts
+					(xy -19.05 -2.54) (xy -12.7 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -19.05 -7.62) (xy -12.7 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -1.27) (xy -12.7 -8.89) (xy -5.08 -5.08) (xy -12.7 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -3.81) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -6.35) (xy 0 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ADA4945-1_1_1"
+			(rectangle
+				(start -22.86 5.08)
+				(end 3.81 -15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
+			(pin input line
+				(at -25.4 1.27 0)
+				(length 2.54)
+				(name "-FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -25.4 -2.54 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -25.4 -7.62 0)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -25.4 -11.43 0)
+				(length 2.54)
+				(name "+FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -16.51 7.62 270)
+				(length 2.54)
+				(name "MODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -16.51 -17.78 90)
+				(length 2.54)
+				(name "DGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 7.62 270)
+				(length 2.54)
+				(name "+Vs"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 -17.78 90)
+				(length 2.54)
+				(name "-Vs"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 7.62 270)
+				(length 2.54)
+				(name "+Vs"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -17.78 90)
+				(length 2.54)
+				(name "-Vs"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 -17.78 90)
+				(length 2.54)
+				(name "-Vs"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 7.62 270)
+				(length 2.54)
+				(name "+Vclamp"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -17.78 90)
+				(length 2.54)
+				(name "-Vclamp"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 -11.43 180)
+				(length 2.54)
+				(name "VOCM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 1.27 180)
+				(length 3.81)
+				(name "~{DISABLE}"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 -2.54 180)
+				(length 5.08)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 -7.62 180)
+				(length 5.08)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ADA4945-LP"
+		(pin_names
+			(offset 0.127)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U36"
+			(at -0.3967 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTC6363IMS8"
+			(at -0.3967 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/6362fa.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC OPAMP DIFF 1 CIRCUIT 8MSOP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "7.61"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "LTC6363IMS8#TRPBF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "single differential opamp"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MSOP*3x3mm*P0.65mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ADA4945-LP_0_1"
+			(polyline
+				(pts
+					(xy -5.08 6.35) (xy -5.08 -6.35) (xy 7.62 0) (xy -5.08 6.35)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "ADA4945-LP_1_1"
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "VOCM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 7.62 270)
+				(length 2.54)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -7.62 90)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -7.62 90)
+				(length 3.81)
+				(name "~{SHDN}"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 2.54 180)
+				(length 5.08)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 -2.54 180)
+				(length 5.08)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "ADR1001AEZ"
 		(pin_names
 			(offset 0.254)
@@ -7885,7 +8625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E-20-1_ADI"
+		(property "Footprint" "myparts:E-20-1_ADI"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -7912,14 +8652,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "ADR1001AEZ"
@@ -9581,7 +10313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "myparts:R_8_ADI-M"
+		(property "Footprint" "myparts:R_8_ADI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9656,54 +10388,6 @@
 			)
 		)
 		(symbol "ADUM5240ARZ_0_1"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -16.51)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -16.51) (xy 34.29 -16.51)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 34.29 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 34.29 -16.51) (xy 34.29 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin unspecified line
 				(at 0 1.27 0)
 				(length 7.62)
@@ -9760,6 +10444,18 @@
 			)
 		)
 		(symbol "ADUM5240ARZ_1_1"
+			(rectangle
+				(start 7.62 4.445)
+				(end 34.29 -16.51)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
 			(pin unspecified line
 				(at 0 -3.81 0)
 				(length 7.62)
@@ -9876,7 +10572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "myparts:R_8_ADI-M"
+		(property "Footprint" "myparts:R_8_ADI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9924,54 +10620,6 @@
 			)
 		)
 		(symbol "ADUM5242ARZ_0_1"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -16.51)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -16.51) (xy 34.29 -16.51)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 34.29 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 34.29 -16.51) (xy 34.29 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin unspecified line
 				(at 0 1.27 0)
 				(length 7.62)
@@ -9983,24 +10631,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 41.91 1.27 180)
-				(length 7.62)
-				(name "VISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10028,6 +10658,18 @@
 			)
 		)
 		(symbol "ADUM5242ARZ_1_1"
+			(rectangle
+				(start 7.62 5.08)
+				(end 34.29 -15.875)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
 			(pin unspecified line
 				(at 0 -3.81 0)
 				(length 7.62)
@@ -10075,6 +10717,24 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 1.27 180)
+				(length 7.62)
+				(name "VISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11140,7 +11800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFN-16_DE_LIT"
+		(property "Footprint" "myparts:DFN-16_DE_LIT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11167,14 +11827,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "LTC2378IDE-20#PBF"
@@ -14732,5 +15384,6 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

@@ -1420,7 +1420,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "myparts:LFCSP16_ADA4945-1ACPZ-R2_ADI-L"
+			(property "Footprint" "myparts:QFN50P300X300X80-17N"
 				(at -5.842 -41.91 0)
 				(effects
 					(font
@@ -1822,14 +1822,14 @@
 				(pin output line
 					(at 8.89 -2.54 180)
 					(length 5.08)
-					(name "+"
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1840,14 +1840,14 @@
 				(pin output line
 					(at 8.89 -7.62 180)
 					(length 5.08)
-					(name "-"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "11"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2095,7 +2095,7 @@
 					)
 				)
 			)
-			(property "Footprint" "DFN-16_DE_LIT"
+			(property "Footprint" "myparts:DFN-16_DE_LIT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2122,14 +2122,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "LTC2378IDE-20#PBF"
@@ -3079,12 +3071,6 @@
 		(uuid "d87c0ec7-79df-4535-b9c0-1b23e2b98ee8")
 	)
 	(junction
-		(at 194.31 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e24e47c5-edfe-4c3b-9f8e-a036af32f11b")
-	)
-	(junction
 		(at 340.36 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3191,16 +3177,6 @@
 			(type default)
 		)
 		(uuid "0b30a50c-d3ef-4282-95a2-01541de4e1c8")
-	)
-	(wire
-		(pts
-			(xy 120.65 123.19) (xy 120.65 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b737d49-63ee-463c-8310-383469111b65")
 	)
 	(wire
 		(pts
@@ -3644,16 +3620,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 125.73) (xy 200.66 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d10af0d-eec7-4dfd-8e64-49303308413a")
-	)
-	(wire
-		(pts
 			(xy 157.48 115.57) (xy 157.48 120.65)
 		)
 		(stroke
@@ -3864,7 +3830,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 138.43) (xy 200.66 137.16)
+			(xy 200.66 125.73) (xy 200.66 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4534,26 +4500,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 125.73) (xy 194.31 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b610f29f-db83-4437-8a70-f9dcc882dd53")
-	)
-	(wire
-		(pts
-			(xy 194.31 125.73) (xy 200.66 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7394292-8e62-4be1-bf6e-149de4316783")
-	)
-	(wire
-		(pts
 			(xy 224.79 132.08) (xy 227.33 132.08)
 		)
 		(stroke
@@ -4734,13 +4680,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 143.51) (xy 194.31 140.97)
+			(xy 120.65 123.19) (xy 120.65 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfb3d8a8-dce2-4737-9aa2-34be720b03aa")
+		(uuid "cf265e23-091e-414d-b99d-93bd96f0c1f6")
 	)
 	(wire
 		(pts
@@ -5034,16 +4980,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 140.97) (xy 194.31 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4272676-b307-4dda-89cf-9ac14ab2f812")
-	)
-	(wire
-		(pts
 			(xy 345.44 78.74) (xy 345.44 82.55)
 		)
 		(stroke
@@ -5222,7 +5158,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 138.43 0)
+		(at 200.66 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5231,7 +5167,7 @@
 		(fields_autoplaced yes)
 		(uuid "00b8a103-24a8-434c-994c-90fb58bb0588")
 		(property "Reference" "#PWR0244"
-			(at 200.66 144.78 0)
+			(at 200.66 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5176,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 143.51 0)
+			(at 200.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5249,7 +5185,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 138.43 0)
+			(at 200.66 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,7 +5194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 138.43 0)
+			(at 200.66 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +5203,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 138.43 0)
+			(at 200.66 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +5991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFN-16_DE_LIT"
+		(property "Footprint" "myparts:DFN-16_DE_LIT"
 			(at 307.34 106.68 0)
 			(effects
 				(font
@@ -7216,7 +7152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "myparts:LFCSP16_ADA4945-1ACPZ-R2_ADI-L"
+		(property "Footprint" "myparts:QFN50P300X300X80-17N"
 			(at 248.158 156.21 0)
 			(effects
 				(font
@@ -7313,7 +7249,7 @@
 			(uuid "dc07828d-2644-467f-8c8b-759c3013b68d")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
 					(reference "U8")
 					(unit 1)
@@ -7910,7 +7846,7 @@
 			(uuid "48cd1dc0-d78e-4652-86a7-993dbf7678fb")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
 					(reference "R36")
 					(unit 1)
@@ -11672,7 +11608,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 143.51 0)
+		(at 120.65 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11681,7 +11617,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0799a5a-b85d-4084-b8af-9f42dd2d2371")
 		(property "Reference" "#PWR0240"
-			(at 194.31 149.86 0)
+			(at 120.65 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11690,7 +11626,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 148.59 0)
+			(at 120.65 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11699,7 +11635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 143.51 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11708,7 +11644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 143.51 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11717,7 +11653,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 143.51 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11833,7 +11769,7 @@
 			(uuid "fdce9252-804a-4719-ae19-a9fe98f2783b")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
 					(reference "C38")
 					(unit 1)
@@ -12220,112 +12156,13 @@
 			(uuid "e84eb2fe-9073-44ef-a619-61a84e3348d4")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
 					(reference "D5")
 					(unit 1)
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 200.66 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff6330aa-727c-4a31-8e3c-39e81ec6845e")
-		(property "Reference" "C169"
-			(at 203.2 133.3562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6800pF"
-			(at 203.2 135.8962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 200.66 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 6800PF 50V X7R 0402"
-			(at 200.66 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 196.342 134.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Samsung"
-			(at 200.66 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" "CAP CER 3300PF 50V X7R 0402"
-			(at 200.66 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9d3ddf09-f88a-4046-947b-9f76bc9a70e9")
-		)
-		(pin "1"
-			(uuid "1fcb56b8-ed7b-4a9c-ab01-c313ea6ce15a")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "C134")
-					(unit 1)
-				)
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "C169")
 					(unit 1)
 				)
 			)

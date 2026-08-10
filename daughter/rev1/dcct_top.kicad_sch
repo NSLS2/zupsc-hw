@@ -3780,7 +3780,7 @@
 			(uuid "752d3a91-e741-4798-9dec-8d3e70aaebe1")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203"
 					(reference "U20")
 					(unit 1)
@@ -4796,7 +4796,7 @@
 			(uuid "b6feac07-afc1-4cc5-996f-a96c4eb753c5")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203"
 					(reference "#PWR0147")
 					(unit 1)
@@ -5131,7 +5131,7 @@
 			(uuid "95ed0215-eff3-4164-93d5-f68ac3c63908")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203"
 					(reference "#PWR0146")
 					(unit 1)

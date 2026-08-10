@@ -4536,7 +4536,7 @@
 			(uuid "346993d5-1ece-42f2-a15d-f39cc278097d")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/79a78ff4-0a06-4569-970f-a218b7d7f7b9"
 					(reference "#PWR0142")
 					(unit 1)
@@ -4664,7 +4664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADS8568SPM:QFP50P1200X1200X160-64N"
+		(property "Footprint" "myparts:QFP50P1200X1200X160-64N"
 			(at 254 135.89 0)
 			(effects
 				(font
@@ -4915,7 +4915,7 @@
 			(uuid "e463b484-24e2-4123-86ab-808b0a9e1a61")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/79a78ff4-0a06-4569-970f-a218b7d7f7b9"
 					(reference "U13")
 					(unit 1)
@@ -7311,7 +7311,7 @@
 			(uuid "eb2b8a41-670e-4433-83e5-42f69790467b")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/79a78ff4-0a06-4569-970f-a218b7d7f7b9"
 					(reference "#PWR097")
 					(unit 1)
@@ -7511,7 +7511,7 @@
 			(uuid "82a88acc-1034-4cb5-8285-94e00a1ac0f1")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/79a78ff4-0a06-4569-970f-a218b7d7f7b9"
 					(reference "#PWR0262")
 					(unit 1)
@@ -7577,7 +7577,7 @@
 			(uuid "6d305a15-71a6-4df6-967d-cc61770091a5")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/79a78ff4-0a06-4569-970f-a218b7d7f7b9"
 					(reference "#PWR0143")
 					(unit 1)

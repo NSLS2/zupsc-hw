@@ -442,7 +442,7 @@
 					)
 				)
 			)
-			(property "Footprint" "E-20-1_ADI"
+			(property "Footprint" "myparts:E-20-1_ADI"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -469,14 +469,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "ADR1001AEZ"
@@ -2071,7 +2063,7 @@
 			(uuid "4e6573e6-6ae5-4945-b576-45d42c521410")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/dea95122-986e-41c8-b99e-e429cc6f4cd5/4999e499-3966-4a05-8928-c40234f9b048"
 					(reference "#PWR077")
 					(unit 1)
@@ -2239,7 +2231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E-20-1_ADI"
+		(property "Footprint" "myparts:E-20-1_ADI"
 			(at 180.34 97.79 0)
 			(effects
 				(font
@@ -2356,7 +2348,7 @@
 			(uuid "81d034db-99e2-4813-85cf-2cdc0893d621")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/dea95122-986e-41c8-b99e-e429cc6f4cd5/4999e499-3966-4a05-8928-c40234f9b048"
 					(reference "U12")
 					(unit 1)
