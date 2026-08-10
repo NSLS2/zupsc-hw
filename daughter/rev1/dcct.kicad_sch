@@ -6090,6 +6090,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 232.41 137.16 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1939ec52-fafd-4299-84db-c9140232ad91")
+		(property "Reference" "C122"
+			(at 234.696 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470pF"
+			(at 234.696 142.494 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 470PF 50V C0G/NP0 0402"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 232.664 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" ".01"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Kemet"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "C0402C471J5GACTU"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7f510a9-3afb-4f88-b672-a068cc36ccf8")
+		)
+		(pin "1"
+			(uuid "2ec57636-e339-4a49-a6e5-9b8bb9e256da")
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
+					(reference "C129")
+					(unit 1)
+				)
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
+					(reference "C122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 267.97 100.33 0)
 		(unit 1)
@@ -7292,7 +7401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22nF"
+		(property "Value" "470pF"
 			(at 234.696 103.886 90)
 			(effects
 				(font
@@ -7319,7 +7428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22NF 50V X7R 0402"
+		(property "Description" "CAP CER 470PF 50V C0G/NP0 0402"
 			(at 232.41 109.22 0)
 			(effects
 				(font
@@ -7345,7 +7454,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Murata"
+		(property "MFG" "Kemet"
 			(at 232.41 109.22 0)
 			(effects
 				(font
@@ -7354,7 +7463,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PN" "GRM155R71H223KA12D"
+		(property "MFG_PN" "C0402C471J5GACTU"
 			(at 232.41 109.22 0)
 			(effects
 				(font
@@ -8141,121 +8250,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 219.71 116.84 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6303d219-0ce2-4b09-8f63-8176f49ada43")
-		(property "Reference" "R45"
-			(at 219.71 114.046 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.0K"
-			(at 219.71 119.126 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 219.456 117.856 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 1K OHM 0.1% 1/10W 0603"
-			(at 219.71 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 224.79 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ".01"
-			(at 219.71 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Yageo"
-			(at 219.71 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" "RT0603BRB071KL"
-			(at 219.71 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PPM" "10ppm/C"
-			(at 219.964 120.396 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "55942932-fa77-4888-877b-d72e791323b5")
-		)
-		(pin "1"
-			(uuid "a5570aaa-4470-4cd5-b477-ec4cde6ef99c")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "R51")
-					(unit 1)
-				)
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 166.37 166.37 0)
 		(unit 1)
@@ -8706,6 +8700,121 @@
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
 					(reference "#PWR0281")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 219.71 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80ecf45d-49b7-4a2e-a0a6-e0fdf51b8a4f")
+		(property "Reference" "R45"
+			(at 219.71 114.046 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.0K"
+			(at 219.71 119.126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 219.456 117.856 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+			(at 219.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 224.79 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 219.71 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Yageo"
+			(at 219.71 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "RT0603BRB0710KL"
+			(at 219.71 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PPM" "10ppm/C"
+			(at 219.964 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "29a2424b-bb91-41fd-a233-d539e778366e")
+		)
+		(pin "1"
+			(uuid "edfed3cf-ffb4-42a7-a759-f8d9ef153eef")
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
+					(reference "R46")
+					(unit 1)
+				)
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -9164,114 +9273,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 232.41 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8e112554-0bc8-4e82-916b-51af5a491310")
-		(property "Reference" "C122"
-			(at 234.95 142.494 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22nF"
-			(at 234.95 139.954 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 232.41 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22NF 50V X7R 0402"
-			(at 232.41 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 232.664 141.478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Cost" ".01"
-			(at 232.41 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Murata"
-			(at 232.41 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" "GRM155R71H223KA12D"
-			(at 232.41 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d1abd2be-7da5-4b14-b51c-6ab12c8ea47a")
-		)
-		(pin "1"
-			(uuid "2d91f816-f76e-4327-bfcd-bfffbf6d376d")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "C129")
-					(unit 1)
-				)
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "C122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PSC:+15V")
 		(at 116.84 87.63 0)
 		(unit 1)
@@ -9620,6 +9621,121 @@
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
 					(reference "C174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 232.41 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a616f476-9171-4590-b4c1-d92732a0a97b")
+		(property "Reference" "R62"
+			(at 232.41 126.746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.0K"
+			(at 232.41 131.826 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 232.156 130.556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 237.49 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 232.41 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Yageo"
+			(at 232.41 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "RT0603BRB0710KL"
+			(at 232.41 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PPM" "10ppm/C"
+			(at 232.664 133.604 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7c3256ff-5c22-48bf-aabd-f6aa45a48654")
+		)
+		(pin "1"
+			(uuid "73493553-c828-4b3a-a7cb-43f7c6a3a634")
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
+					(reference "R63")
+					(unit 1)
+				)
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -10066,121 +10182,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 232.41 116.84 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af58331a-baab-4569-b94a-d4b1f131556d")
-		(property "Reference" "R47"
-			(at 232.41 114.046 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.0K"
-			(at 232.41 119.126 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 232.156 117.856 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 1K OHM 0.1% 1/10W 0603"
-			(at 232.41 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 237.49 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ".01"
-			(at 232.41 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Yageo"
-			(at 232.41 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" "RT0603BRB071KL"
-			(at 232.41 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PPM" "10ppm/C"
-			(at 232.664 120.396 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f38122a6-b664-48ab-84fe-96accaca4737")
-		)
-		(pin "1"
-			(uuid "d3910321-5a58-4548-bdd9-ba77fb20f62f")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "R62")
-					(unit 1)
-				)
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 318.77 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10486,121 +10487,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 232.41 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8027ead-92bf-46ed-938d-617b9d5b7b7f")
-		(property "Reference" "R48"
-			(at 232.41 126.746 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.0K"
-			(at 232.41 131.826 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 232.156 130.556 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 1K OHM 0.1% 1/10W 0603"
-			(at 232.41 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 237.49 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ".01"
-			(at 232.41 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Yageo"
-			(at 232.41 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" "RT0603BRB071KL"
-			(at 232.41 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PPM" "10ppm/C"
-			(at 232.664 133.096 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5722ed6d-ee4e-4cae-b525-a449db16656d")
-		)
-		(pin "1"
-			(uuid "393b9186-95cb-4666-9e0b-65ee109d1608")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "R63")
-					(unit 1)
-				)
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 116.84 93.98 0)
 		(unit 1)
@@ -10794,121 +10680,6 @@
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
 					(reference "C111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 219.71 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c78f3714-330e-46ca-a3be-07d32b770123")
-		(property "Reference" "R46"
-			(at 219.71 126.746 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.0K"
-			(at 219.71 131.826 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 219.456 130.556 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 1K OHM 0.1% 1/10W 0603"
-			(at 219.71 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 224.79 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ".01"
-			(at 219.71 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Yageo"
-			(at 219.71 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" "RT0603BRB071KL"
-			(at 219.71 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PPM" "10ppm/C"
-			(at 219.964 133.096 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e9ba494c-5786-4690-81e5-8e2bdd24af1f")
-		)
-		(pin "1"
-			(uuid "e90f937d-c590-4105-9e96-0c0248a01093")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "R58")
-					(unit 1)
-				)
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -12639,6 +12410,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 219.71 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec6006dc-4faf-4b42-8e45-69f23c68073d")
+		(property "Reference" "R51"
+			(at 219.71 126.746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.0K"
+			(at 219.71 131.826 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 219.456 130.556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+			(at 219.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 224.79 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 219.71 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Yageo"
+			(at 219.71 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "RT0603BRB0710KL"
+			(at 219.71 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PPM" "10ppm/C"
+			(at 219.964 133.604 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fcfc12da-3010-4d09-98a0-41c5f2ee0b7c")
+		)
+		(pin "1"
+			(uuid "dac1022f-2644-4efc-bdb6-c4f80196d508")
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
+					(reference "R58")
+					(unit 1)
+				)
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.11 123.19 0)
 		(unit 1)
@@ -12808,6 +12694,121 @@
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
 					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 232.41 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f657618b-596e-4f71-8f01-f9e1b86fed29")
+		(property "Reference" "R47"
+			(at 232.41 114.046 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.0K"
+			(at 232.41 119.126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 232.156 117.856 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+			(at 232.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 237.49 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 232.41 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Yageo"
+			(at 232.41 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "RT0603BRB0710KL"
+			(at 232.41 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PPM" "10ppm/C"
+			(at 232.664 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "df860ce4-45e1-4cb7-8663-e75a78f7ef47")
+		)
+		(pin "1"
+			(uuid "3f113a0e-b613-4621-b6c3-d9f66dadc0f6")
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
+					(reference "R47")
 					(unit 1)
 				)
 			)
