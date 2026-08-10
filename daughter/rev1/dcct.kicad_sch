@@ -2967,12 +2967,6 @@
 		(uuid "2ddbf3d2-7016-4683-98f0-33442b2a20d9")
 	)
 	(junction
-		(at 294.64 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30bcbaf6-aafd-4154-b939-a66e3211b8d8")
-	)
-	(junction
 		(at 101.6 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3117,12 +3111,6 @@
 		(uuid "a661a077-0e74-4685-a32a-06f19a87b2fb")
 	)
 	(junction
-		(at 294.64 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0811926-42a1-42ba-8339-588554a8c162")
-	)
-	(junction
 		(at 166.37 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3234,16 +3222,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 120.65) (xy 287.02 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07180704-87cd-4192-b85c-3652bffaebab")
-	)
-	(wire
-		(pts
 			(xy 234.95 137.16) (xy 237.49 137.16)
 		)
 		(stroke
@@ -3281,16 +3259,6 @@
 			(type default)
 		)
 		(uuid "0baa6dc8-be63-4c28-891b-30455faaf075")
-	)
-	(wire
-		(pts
-			(xy 287.02 128.27) (xy 294.64 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c3f538f-ae1e-43e1-b050-3e25c4a7cd06")
 	)
 	(wire
 		(pts
@@ -3394,26 +3362,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 119.38) (xy 294.64 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "174fd904-81a6-4ccd-8689-cf5a32e1ec10")
-	)
-	(wire
-		(pts
-			(xy 283.21 125.73) (xy 287.02 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1919aca4-0f8c-4160-8070-8509f03c9b1c")
-	)
-	(wire
-		(pts
 			(xy 166.37 134.62) (xy 166.37 132.08)
 		)
 		(stroke
@@ -3464,7 +3412,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 125.73) (xy 275.59 125.73)
+			(xy 273.05 125.73) (xy 287.02 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3494,7 +3442,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 119.38) (xy 328.93 119.38)
+			(xy 309.88 119.38) (xy 328.93 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3521,16 +3469,6 @@
 			(type default)
 		)
 		(uuid "26f35ab8-7d31-4411-bb5c-07e99cce8c4d")
-	)
-	(wire
-		(pts
-			(xy 328.93 113.03) (xy 328.93 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29565b74-b1a8-4c0a-b3eb-5bc423ef3a10")
 	)
 	(wire
 		(pts
@@ -3564,7 +3502,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 120.65) (xy 275.59 120.65)
+			(xy 287.02 119.38) (xy 302.26 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3594,16 +3532,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 119.38) (xy 328.93 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3243efe8-ad92-4e9a-b28e-b057d86b4023")
-	)
-	(wire
-		(pts
 			(xy 237.49 129.54) (xy 238.76 129.54)
 		)
 		(stroke
@@ -3621,26 +3549,6 @@
 			(type default)
 		)
 		(uuid "336e482a-38f1-49ef-a902-539cfa73280e")
-	)
-	(wire
-		(pts
-			(xy 294.64 113.03) (xy 294.64 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "373f5621-60d2-4417-bd97-acaa3a2c18bb")
-	)
-	(wire
-		(pts
-			(xy 289.56 102.87) (xy 294.64 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38d8221e-438f-4cd7-94b6-ce096aecbe18")
 	)
 	(wire
 		(pts
@@ -3691,6 +3599,16 @@
 			(type default)
 		)
 		(uuid "3ebdb685-5276-40f9-88ab-a0c95ed3f4b5")
+	)
+	(wire
+		(pts
+			(xy 328.93 113.03) (xy 328.93 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e1f16f-7136-474f-a4c4-fc063505a0ec")
 	)
 	(wire
 		(pts
@@ -3751,16 +3669,6 @@
 			(type default)
 		)
 		(uuid "47a57951-76c2-4cc7-9776-dcd044450e63")
-	)
-	(wire
-		(pts
-			(xy 328.93 127) (xy 328.93 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4863b17b-b1eb-4888-ae28-48ab13323b6b")
 	)
 	(wire
 		(pts
@@ -3964,16 +3872,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 140.97) (xy 294.64 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5da70073-7845-44a7-8c35-7e7afa3a8977")
-	)
-	(wire
-		(pts
 			(xy 267.97 100.33) (xy 267.97 99.06)
 		)
 		(stroke
@@ -4094,6 +3992,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 119.38) (xy 287.02 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7091da09-9597-4df5-a612-d136c07ed694")
+	)
+	(wire
+		(pts
 			(xy 237.49 109.22) (xy 237.49 116.84)
 		)
 		(stroke
@@ -4194,7 +4102,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 128.27) (xy 314.96 128.27)
+			(xy 287.02 128.27) (xy 302.26 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4254,7 +4162,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 128.27) (xy 328.93 128.27)
+			(xy 309.88 128.27) (xy 328.93 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4271,16 +4179,6 @@
 			(type default)
 		)
 		(uuid "86e5225a-3db6-4a60-8ad0-85bc07d51288")
-	)
-	(wire
-		(pts
-			(xy 294.64 102.87) (xy 294.64 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "886ac2b2-96cc-442e-b5ff-d03488b9d999")
 	)
 	(wire
 		(pts
@@ -4324,13 +4222,13 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 120.65) (xy 287.02 120.65)
+			(xy 328.93 127) (xy 328.93 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c31e430-a8d3-4981-b1e1-382669062c68")
+		(uuid "8b0d3c32-c7de-47f9-a2dc-66df7b315399")
 	)
 	(wire
 		(pts
@@ -4634,16 +4532,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 105.41) (xy 289.56 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab7e8122-e3e8-4b58-95fa-a169420b6611")
-	)
-	(wire
-		(pts
 			(xy 113.03 90.17) (xy 116.84 90.17)
 		)
 		(stroke
@@ -4744,16 +4632,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 119.38) (xy 294.64 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9bf0945-e62a-4f1a-8bd0-5c9075818ac8")
-	)
-	(wire
-		(pts
 			(xy 267.97 165.1) (xy 267.97 163.83)
 		)
 		(stroke
@@ -4801,16 +4679,6 @@
 			(type default)
 		)
 		(uuid "bf535c14-f511-4187-86a9-62d86c7644f1")
-	)
-	(wire
-		(pts
-			(xy 294.64 128.27) (xy 294.64 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c065a145-4a11-4861-9d17-9f34a30282e0")
 	)
 	(wire
 		(pts
@@ -4901,6 +4769,16 @@
 			(type default)
 		)
 		(uuid "c71b4817-679d-4246-ae84-9386ebe1f107")
+	)
+	(wire
+		(pts
+			(xy 328.93 119.38) (xy 328.93 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c2af21-6ee2-4a4c-bcc9-1e7072441d49")
 	)
 	(wire
 		(pts
@@ -5134,16 +5012,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 125.73) (xy 294.64 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e326fc5f-e43e-4a32-8a74-d9b72870394c")
-	)
-	(wire
-		(pts
 			(xy 359.41 93.98) (xy 359.41 92.71)
 		)
 		(stroke
@@ -5324,16 +5192,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 119.38) (xy 314.96 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbc81a56-33b5-49d6-a767-c224e9431a3d")
-	)
-	(wire
-		(pts
 			(xy 238.76 124.46) (xy 238.76 125.73)
 		)
 		(stroke
@@ -5341,6 +5199,16 @@
 			(type default)
 		)
 		(uuid "fc5dbdb4-671c-4f79-84b5-c2fe4c9439b2")
+	)
+	(wire
+		(pts
+			(xy 287.02 120.65) (xy 273.05 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde0938b-f891-491e-83c2-82d7a7e197d1")
 	)
 	(wire
 		(pts
@@ -5442,7 +5310,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 318.77 128.27 270)
+		(at 306.07 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5450,7 +5318,7 @@
 		(dnp no)
 		(uuid "077e4a3c-8a99-4345-8de2-9c734cfd36ac")
 		(property "Reference" "R65"
-			(at 317.246 131.064 90)
+			(at 304.546 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5326,7 @@
 			)
 		)
 		(property "Value" "30.1"
-			(at 321.818 131.064 90)
+			(at 309.118 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,7 +5334,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 318.516 129.286 90)
+			(at 305.816 129.286 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,7 +5343,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 318.77 128.27 0)
+			(at 306.07 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5484,7 +5352,7 @@
 			)
 		)
 		(property "Description" "RES SMD 30.1 OHM 1% 1/10W 0402"
-			(at 318.77 128.27 0)
+			(at 306.07 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,7 +5361,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 322.072 131.064 90)
+			(at 309.372 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5370,7 @@
 			)
 		)
 		(property "Cost" ".01"
-			(at 318.77 128.27 90)
+			(at 306.07 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5511,7 +5379,7 @@
 			)
 		)
 		(property "MFG" "Panasonic"
-			(at 318.77 128.27 90)
+			(at 306.07 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +5388,7 @@
 			)
 		)
 		(property "MFG_PN" "ERJ-2RKF30R1X"
-			(at 318.77 128.27 90)
+			(at 306.07 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,113 +6818,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 279.4 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c709061-5e10-489a-a8b1-1f2980479de1")
-		(property "Reference" "R50"
-			(at 277.876 128.524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "30.1"
-			(at 282.448 128.524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 279.146 126.746 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 279.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 30.1 OHM 1% 1/10W 0402"
-			(at 279.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 282.702 128.524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ".01"
-			(at 279.4 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Panasonic"
-			(at 279.4 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" "ERJ-2RKF30R1X"
-			(at 279.4 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2167c5df-54d9-4713-ae0f-7dca999d854f")
-		)
-		(pin "1"
-			(uuid "50d0e437-af13-4a62-b193-cffa3e7b074d")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "R75")
-					(unit 1)
-				)
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PSC:+5.3VA")
 		(at 256.54 90.17 0)
 		(unit 1)
@@ -7803,77 +7564,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 294.64 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5248652a-2b4c-4c89-a32c-d58616b89a2a")
-		(property "Reference" "#PWR0200"
-			(at 294.64 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 294.64 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 294.64 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 294.64 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 294.64 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fac48412-156e-4556-a063-9a9af34a0b84")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "#PWR0202")
-					(unit 1)
-				)
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "#PWR0200")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 31.75 106.68 270)
 		(unit 1)
@@ -8074,77 +7764,6 @@
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
 					(reference "C175")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 289.56 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58080f24-68d7-462f-ac16-25cb0b80b734")
-		(property "Reference" "#PWR0199"
-			(at 289.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 289.56 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 289.56 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 289.56 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e84b913f-3c0c-4443-a272-cd55eb82f789")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "#PWR0201")
-					(unit 1)
-				)
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -10182,7 +9801,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 318.77 119.38 270)
+		(at 306.07 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10190,7 +9809,7 @@
 		(dnp no)
 		(uuid "b06c1757-e884-4740-a36b-12bae16635d3")
 		(property "Reference" "R64"
-			(at 316.992 117.094 90)
+			(at 304.292 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10198,7 +9817,7 @@
 			)
 		)
 		(property "Value" "30.1"
-			(at 321.564 117.094 90)
+			(at 308.864 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,7 +9825,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 318.516 120.396 90)
+			(at 305.816 120.396 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10215,7 +9834,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 318.77 119.38 0)
+			(at 306.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10224,7 +9843,7 @@
 			)
 		)
 		(property "Description" "RES SMD 30.1 OHM 1% 1/10W 0402"
-			(at 318.77 119.38 0)
+			(at 306.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10233,7 +9852,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 322.072 122.174 90)
+			(at 309.372 122.174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10242,7 +9861,7 @@
 			)
 		)
 		(property "Cost" ".01"
-			(at 318.77 119.38 90)
+			(at 306.07 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10251,7 +9870,7 @@
 			)
 		)
 		(property "MFG" "Panasonic"
-			(at 318.77 119.38 90)
+			(at 306.07 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10260,7 +9879,7 @@
 			)
 		)
 		(property "MFG_PN" "ERJ-2RKF30R1X"
-			(at 318.77 119.38 90)
+			(at 306.07 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10686,105 +10305,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 294.64 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca175ce4-3ae5-44a1-bfb6-b52f85b53329")
-		(property "Reference" "C124"
-			(at 297.18 109.2262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6800pF"
-			(at 297.18 111.7662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 294.64 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 294.64 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 6800PF 50V X7R 0402"
-			(at 294.64 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 290.322 110.744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Samsung"
-			(at 294.64 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" "CAP CER 3300PF 50V X7R 0402"
-			(at 294.64 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7b41d254-5b94-4a9f-8a88-5d2253bc9a5e")
-		)
-		(pin "1"
-			(uuid "c0f1280b-b215-4e23-82b5-750d782fdca3")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "C131")
-					(unit 1)
-				)
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "C124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:AD8676xR")
 		(at 153.67 149.86 0)
 		(unit 3)
@@ -11132,114 +10652,6 @@
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 294.64 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d53563b3-3828-4ccd-8949-e47cb05a02f6")
-		(property "Reference" "C125"
-			(at 297.18 121.9262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3300pF"
-			(at 297.18 124.4662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 294.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 294.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 3300PF 50V X7R 0402"
-			(at 294.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 290.322 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Cost" ".01"
-			(at 294.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Samsung"
-			(at 294.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" "CL05B332KB5NNNC"
-			(at 294.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b0af5c10-64cb-44e2-bfef-ff50e2857704")
-		)
-		(pin "1"
-			(uuid "525f85a7-73f7-4dd8-9801-e16ee4dc6c6f")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "C132")
-					(unit 1)
-				)
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "C125")
 					(unit 1)
 				)
 			)
@@ -12815,105 +12227,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 294.64 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7519092-9e38-410a-a961-aa653a624ad1")
-		(property "Reference" "C126"
-			(at 297.18 134.6262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6800pF"
-			(at 297.18 137.1662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 294.64 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 294.64 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 6800PF 50V X7R 0402"
-			(at 294.64 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 290.322 136.144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" "Samsung"
-			(at 294.64 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" "CAP CER 3300PF 50V X7R 0402"
-			(at 294.64 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "13e37519-4dac-4e4c-a30c-e2a53a54c70e")
-		)
-		(pin "1"
-			(uuid "fb766163-daaf-44a2-855f-86c6ba433dab")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "C133")
-					(unit 1)
-				)
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "C126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 187.96 123.19 0)
 		(unit 1)
@@ -12979,113 +12292,6 @@
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
 					(reference "#PWR0188")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 279.4 120.65 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8fbad93-5e53-4817-bc19-e87ea5d1abb9")
-		(property "Reference" "R49"
-			(at 277.622 118.364 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "30.1"
-			(at 282.194 118.364 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 279.146 121.666 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 279.4 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 30.1 OHM 1% 1/10W 0402"
-			(at 279.4 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 282.702 123.444 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ".01"
-			(at 279.4 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Panasonic"
-			(at 279.4 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" "ERJ-2RKF30R1X"
-			(at 279.4 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aee1d1da-93e7-4d16-b06d-dffeb015f487")
-		)
-		(pin "1"
-			(uuid "7e1f0443-cfa7-4a1f-988f-632d63466bf9")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "R74")
-					(unit 1)
-				)
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "R49")
 					(unit 1)
 				)
 			)
