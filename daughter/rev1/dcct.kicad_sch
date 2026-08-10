@@ -5860,15 +5860,15 @@
 	(symbol
 		(lib_id "Amplifier_Operational:AD8676xR")
 		(at 198.12 116.84 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0db47e43-8273-4cd3-8e35-48d501a82940")
 		(property "Reference" "U4"
-			(at 198.12 106.68 0)
+			(at 198.12 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,7 +5876,7 @@
 			)
 		)
 		(property "Value" "AD8676xR"
-			(at 198.12 109.22 0)
+			(at 198.12 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,7 +5893,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8676.pdf"
-			(at 204.47 113.03 0)
+			(at 204.47 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10840,28 +10840,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "24a19328-5ece-44f1-9490-40b33be946bb")
+			(uuid "24a19328-5ece-44f1-9490-40b33be946bc")
 		)
 		(pin "1"
-			(uuid "0b666f48-63fc-4a97-a533-da5032dba866")
+			(uuid "0b666f48-63fc-4a97-a533-da5032dba867")
 		)
 		(pin "2"
-			(uuid "eaf2ccb4-425f-4f2c-a687-64bab97bc73c")
+			(uuid "eaf2ccb4-425f-4f2c-a687-64bab97bc73d")
 		)
 		(pin "3"
-			(uuid "5cdb4605-20a3-4b9a-a392-605d9398b8dd")
+			(uuid "5cdb4605-20a3-4b9a-a392-605d9398b8de")
 		)
 		(pin "4"
-			(uuid "1ade47a3-3db5-4840-abd3-b75fe1873ffc")
+			(uuid "1ade47a3-3db5-4840-abd3-b75fe1873ffd")
 		)
 		(pin "7"
-			(uuid "e5e58d3a-635b-442a-a601-1701a6215d42")
+			(uuid "e5e58d3a-635b-442a-a601-1701a6215d43")
 		)
 		(pin "6"
-			(uuid "759d2c45-6366-4b07-8782-ec4af6c9839c")
+			(uuid "759d2c45-6366-4b07-8782-ec4af6c9839d")
 		)
 		(pin "8"
-			(uuid "b994faf2-3ac2-4f56-87f0-8a2f909322a3")
+			(uuid "b994faf2-3ac2-4f56-87f0-8a2f909322a4")
 		)
 		(instances
 			(project ""
@@ -11050,15 +11050,15 @@
 	(symbol
 		(lib_id "Amplifier_Operational:AD8676xR")
 		(at 157.48 114.3 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cfd87388-5a8d-46a5-b90a-9a201dd08751")
 		(property "Reference" "U4"
-			(at 157.48 104.14 0)
+			(at 157.48 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11066,7 +11066,7 @@
 			)
 		)
 		(property "Value" "AD8676xR"
-			(at 157.48 106.68 0)
+			(at 157.48 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11083,7 +11083,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8676.pdf"
-			(at 163.83 110.49 0)
+			(at 163.83 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11101,28 +11101,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "24a19328-5ece-44f1-9490-40b33be946bb")
+			(uuid "24a19328-5ece-44f1-9490-40b33be946bd")
 		)
 		(pin "1"
-			(uuid "0b666f48-63fc-4a97-a533-da5032dba866")
+			(uuid "0b666f48-63fc-4a97-a533-da5032dba868")
 		)
 		(pin "2"
-			(uuid "eaf2ccb4-425f-4f2c-a687-64bab97bc73c")
+			(uuid "eaf2ccb4-425f-4f2c-a687-64bab97bc73e")
 		)
 		(pin "3"
-			(uuid "5cdb4605-20a3-4b9a-a392-605d9398b8dd")
+			(uuid "5cdb4605-20a3-4b9a-a392-605d9398b8df")
 		)
 		(pin "4"
-			(uuid "1ade47a3-3db5-4840-abd3-b75fe1873ffc")
+			(uuid "1ade47a3-3db5-4840-abd3-b75fe1873ffe")
 		)
 		(pin "7"
-			(uuid "e5e58d3a-635b-442a-a601-1701a6215d42")
+			(uuid "e5e58d3a-635b-442a-a601-1701a6215d44")
 		)
 		(pin "6"
-			(uuid "759d2c45-6366-4b07-8782-ec4af6c9839c")
+			(uuid "759d2c45-6366-4b07-8782-ec4af6c9839e")
 		)
 		(pin "8"
-			(uuid "b994faf2-3ac2-4f56-87f0-8a2f909322a3")
+			(uuid "b994faf2-3ac2-4f56-87f0-8a2f909322a5")
 		)
 		(instances
 			(project ""
