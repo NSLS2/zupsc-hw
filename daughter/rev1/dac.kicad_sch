@@ -2836,6 +2836,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 39.37) (xy 48.26 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b84e8c3-d6fb-4a22-8852-3590fdb99b79")
+	)
+	(wire
+		(pts
 			(xy 102.87 138.43) (xy 106.68 138.43)
 		)
 		(stroke
@@ -4667,6 +4677,17 @@
 			(justify right)
 		)
 		(uuid "8513e57a-82b0-49d5-a178-c7cfeb4e3ff4")
+	)
+	(hierarchical_label "adc_ref_out"
+		(shape input)
+		(at 48.26 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc6fe2e1-4bab-421d-ab9f-2bc9be7da3f8")
 	)
 	(hierarchical_label "dac_out+"
 		(shape input)
@@ -13048,6 +13069,16 @@
 		(pin "REF_OUT" input
 			(at 40.64 34.29 0)
 			(uuid "29ec7bb7-2915-49c9-b2b1-ac1725bbea4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "adc_ref_out" input
+			(at 40.64 39.37 0)
+			(uuid "e54f5ea0-423a-4554-88ee-7e14a695ecef")
 			(effects
 				(font
 					(size 1.27 1.27)
