@@ -1376,6 +1376,16 @@
 		)
 		(uuid "23f6d169-8081-4bed-97ee-c5470df27d2f")
 	)
+	(text "DNP use cap if needed\n"
+		(exclude_from_sim no)
+		(at 294.64 152.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf0f058a-16fb-47c7-a8d1-fb4599509e36")
+	)
 	(junction
 		(at 364.49 133.35)
 		(diameter 0)
