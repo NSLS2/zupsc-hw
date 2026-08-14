@@ -2926,24 +2926,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 16.51 13.97 270)
-					(length 7.62)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 22.86 13.97 270)
 					(length 7.62)
 					(name "VS+"
@@ -3038,6 +3020,24 @@
 					(fill
 						(type color)
 						(color 255 255 194 1)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 13.97 270)
+					(length 7.62)
+					(name "PD*"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -8397,100 +8397,6 @@
 		)
 	)
 	(symbol
-		(lib_id "THP210DR:THP210DR")
-		(at 237.49 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f48b42f-fb48-458d-beff-d3f3e6755d80")
-		(property "Reference" "U21"
-			(at 262.4933 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "THP210DR"
-			(at 262.4933 135.89 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOIC_210DR_TEX"
-			(at 250.19 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/thp210"
-			(at 243.84 149.098 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "36d8c4b0-3170-4a43-94ac-83d3abfe3d93")
-		)
-		(pin "6"
-			(uuid "84578cf0-f99e-4ddf-86c4-e44711c4317f")
-		)
-		(pin "3"
-			(uuid "8700746a-dda6-4d75-bacc-6f7a70c59e94")
-		)
-		(pin "7"
-			(uuid "3491d056-9d9d-4c1c-b0fd-be73643c8f8c")
-		)
-		(pin "2"
-			(uuid "c6b69ffe-3209-44b3-80dd-8afcb2343bda")
-		)
-		(pin "1"
-			(uuid "2ecbcb84-ae69-470d-8a61-0cba3280c3e5")
-		)
-		(pin "8"
-			(uuid "73d9ca22-e49e-43ed-aeb6-ef7008810e33")
-		)
-		(pin "4"
-			(uuid "eb90fad7-82b2-449d-a079-66e7ddb6aa50")
-		)
-		(instances
-			(project ""
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "U22")
-					(unit 1)
-				)
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "U21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 347.98 90.17 0)
 		(unit 1)
@@ -10565,6 +10471,100 @@
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
 					(reference "C111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "THP210DR:THP210DR")
+		(at 237.49 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c97348e6-7606-4363-b10d-19d76243ba05")
+		(property "Reference" "U21"
+			(at 262.4933 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THP210DR"
+			(at 262.4933 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOIC_210DR_TEX"
+			(at 250.19 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/thp210"
+			(at 243.84 149.098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "1a72d171-0876-456e-9137-f08ae51432f8")
+		)
+		(pin "4"
+			(uuid "077acc23-9566-4725-a761-6a5a22247c65")
+		)
+		(pin "5"
+			(uuid "120032af-8ed0-4e32-8dc1-bb2a2347ba27")
+		)
+		(pin "6"
+			(uuid "792574e1-4850-49dd-9b08-89351738286b")
+		)
+		(pin "1"
+			(uuid "2491d533-5165-4f9f-b3db-a1880a205e72")
+		)
+		(pin "3"
+			(uuid "eda1b6f2-4bc7-46e1-ba9f-8d7f2f618bb9")
+		)
+		(pin "8"
+			(uuid "aca7de3d-74e5-4ed8-bc2a-56517b991e66")
+		)
+		(pin "2"
+			(uuid "e652485b-a0ad-4624-828a-5dcba98c52fc")
+		)
+		(instances
+			(project ""
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
+					(reference "U22")
+					(unit 1)
+				)
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
+					(reference "U21")
 					(unit 1)
 				)
 			)
