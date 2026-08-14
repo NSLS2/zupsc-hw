@@ -805,121 +805,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PSC:+1.8V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+1.8V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+1.8V_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+1.8V_1_1"
-				(polyline
-					(pts
-						(xy -0.635 1.27) (xy 0.635 1.27) (xy 0 2.54) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 132 0 0 1)
-					)
-					(fill
-						(type color)
-						(color 132 0 0 1)
-					)
-				)
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PSC:+15V"
 			(power)
 			(pin_numbers
@@ -2531,6 +2416,12 @@
 		(uuid "b335f404-7f17-44ce-912c-2796485b1a82")
 	)
 	(junction
+		(at 66.04 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b507efe0-35bb-43d8-b743-73570dd9f766")
+	)
+	(junction
 		(at 264.16 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2833,6 +2724,16 @@
 			(type default)
 		)
 		(uuid "189b2222-6f08-4fc2-a409-677c6ed7adf1")
+	)
+	(wire
+		(pts
+			(xy 66.04 72.39) (xy 66.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b2b5f03-0541-4dae-9a3b-5e7504b5a819")
 	)
 	(wire
 		(pts
@@ -3206,16 +3107,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 59.69) (xy 66.04 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b4c4d82-b6ac-472e-8ebe-794f505892f8")
-	)
-	(wire
-		(pts
 			(xy 257.81 182.88) (xy 262.89 182.88)
 		)
 		(stroke
@@ -3303,6 +3194,16 @@
 			(type default)
 		)
 		(uuid "54ffa1ca-cb00-4c22-a762-ce64c7f309ef")
+	)
+	(wire
+		(pts
+			(xy 66.04 59.69) (xy 66.04 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5585c08d-e460-4437-aa68-c4ace78ac450")
 	)
 	(wire
 		(pts
@@ -3986,16 +3887,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 69.85) (xy 80.01 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc217035-5cb2-45ba-9c3e-f558afe48f7d")
-	)
-	(wire
-		(pts
 			(xy 298.45 182.88) (xy 298.45 179.07)
 		)
 		(stroke
@@ -4583,6 +4474,16 @@
 			(type default)
 		)
 		(uuid "f4592650-bc9e-4054-a679-20bc2b79a348")
+	)
+	(wire
+		(pts
+			(xy 66.04 72.39) (xy 80.01 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e10d06-e956-4d0b-91f1-ddfa0552987a")
 	)
 	(wire
 		(pts
@@ -9902,72 +9803,6 @@
 			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/dea95122-986e-41c8-b99e-e429cc6f4cd5"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PSC:+1.8V")
-		(at 80.01 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a906e4c4-624e-4deb-b8e9-7e8bacd59525")
-		(property "Reference" "#PWR054"
-			(at 80.01 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1.8V"
-			(at 80.01 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48c6a334-7b53-4387-964f-d49daec48c20")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/dea95122-986e-41c8-b99e-e429cc6f4cd5"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
