@@ -3262,10 +3262,6 @@
 		)
 		(instances
 			(project "psc_carrier_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/d1842e08-6ad7-4891-bdb3-3a3a498e2a30/1b70a4be-91de-4da8-8bea-71377ec1f51c"
-					(reference "U9")
-					(unit 1)
-				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/d1842e08-6ad7-4891-bdb3-3a3a498e2a30/4d03c65a-11e6-4d8a-8956-a18576278712"
 					(reference "U10")
 					(unit 1)
@@ -3840,10 +3836,6 @@
 		)
 		(instances
 			(project "psc_carrier_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/d1842e08-6ad7-4891-bdb3-3a3a498e2a30/1b70a4be-91de-4da8-8bea-71377ec1f51c"
-					(reference "L1")
-					(unit 1)
-				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/d1842e08-6ad7-4891-bdb3-3a3a498e2a30/4d03c65a-11e6-4d8a-8956-a18576278712"
 					(reference "L5")
 					(unit 1)
@@ -4177,10 +4169,6 @@
 		)
 		(instances
 			(project "psc_carrier_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/d1842e08-6ad7-4891-bdb3-3a3a498e2a30/1b70a4be-91de-4da8-8bea-71377ec1f51c"
-					(reference "#PWR071")
-					(unit 1)
-				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/d1842e08-6ad7-4891-bdb3-3a3a498e2a30/4d03c65a-11e6-4d8a-8956-a18576278712"
 					(reference "#PWR0108")
 					(unit 1)

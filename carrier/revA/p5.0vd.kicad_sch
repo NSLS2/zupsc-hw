@@ -6889,10 +6889,6 @@
 		)
 		(instances
 			(project "psc_carrier_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/d1842e08-6ad7-4891-bdb3-3a3a498e2a30/6ef03409-1029-4aa2-94fa-2110fe7db198"
-					(reference "R882")
-					(unit 1)
-				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/d1842e08-6ad7-4891-bdb3-3a3a498e2a30/71c60af7-80bf-4dda-a256-33ed6124b6e1"
 					(reference "R34")
 					(unit 1)
