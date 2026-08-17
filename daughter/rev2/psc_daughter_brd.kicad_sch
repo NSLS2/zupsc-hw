@@ -569,6 +569,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 189.23) (xy 161.29 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c72572b-ecbc-470b-8472-e4a4e72a2e06")
+	)
+	(wire
+		(pts
 			(xy 128.27 107.95) (xy 161.29 107.95)
 		)
 		(stroke
@@ -576,6 +586,16 @@
 			(type default)
 		)
 		(uuid "5cd414c9-0cbd-4c01-9c34-4a604d2d7d76")
+	)
+	(wire
+		(pts
+			(xy 161.29 111.76) (xy 149.86 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f37f4c-4408-42fa-8d46-9a92dc3329df")
 	)
 	(wire
 		(pts
@@ -756,6 +776,16 @@
 			(type default)
 		)
 		(uuid "bcedc10e-3eca-479e-94b6-077d95cc7236")
+	)
+	(wire
+		(pts
+			(xy 149.86 111.76) (xy 149.86 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08d1c0e-17b3-43b5-9187-295e2902798c")
 	)
 	(wire
 		(pts
@@ -1065,7 +1095,7 @@
 			(uuid "7f24acce-4ef0-4ccd-b9dc-0b08b3138a73")
 		)
 		(instances
-			(project "psc_carrier_brd"
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
 					(reference "MT2")
 					(unit 1)
@@ -1133,7 +1163,7 @@
 			(uuid "82aad56e-70b5-4be1-b7a5-f7ef27640128")
 		)
 		(instances
-			(project "psc_carrier_brd"
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
 					(reference "MT3")
 					(unit 1)
@@ -1199,7 +1229,7 @@
 			(uuid "ce610a78-ecc9-4172-bd29-d43aa89e0d4d")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
 					(reference "#PWR01")
 					(unit 1)
@@ -1359,7 +1389,7 @@
 			(uuid "ef929042-1912-4a8a-a94d-d72f4209c826")
 		)
 		(instances
-			(project "psc_carrier_brd"
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
 					(reference "#PWR03")
 					(unit 1)
@@ -1427,7 +1457,7 @@
 			(uuid "c17308b0-333f-42ad-b8bc-934afe3d4e35")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
 					(reference "MT1")
 					(unit 1)
@@ -1493,7 +1523,7 @@
 			(uuid "158e4008-9de3-4fc4-a5a2-69560c47aa55")
 		)
 		(instances
-			(project "psc_carrier_brd"
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
 					(reference "#PWR04")
 					(unit 1)
@@ -1653,7 +1683,7 @@
 			(uuid "f38e1339-6e80-4984-8ed1-288f1f058760")
 		)
 		(instances
-			(project "psc_carrier_brd"
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
 					(reference "#PWR02")
 					(unit 1)
@@ -1721,7 +1751,7 @@
 			(uuid "1e0a3591-25ad-422f-bb11-c31b3d05be2c")
 		)
 		(instances
-			(project "psc_carrier_brd"
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
 					(reference "MT4")
 					(unit 1)
@@ -3163,6 +3193,16 @@
 				(justify right)
 			)
 		)
+		(pin "adc_ref_in" input
+			(at 161.29 189.23 180)
+			(uuid "06527735-6fc1-475d-95c6-3b32047b9701")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
@@ -3258,6 +3298,16 @@
 		(pin "dac_vout-" input
 			(at 161.29 107.95 180)
 			(uuid "1d66e541-1412-416b-a2e4-013db5768ba7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "adc_ref_out" input
+			(at 161.29 111.76 180)
+			(uuid "7446198a-3724-4554-906f-a0029755896e")
 			(effects
 				(font
 					(size 1.27 1.27)

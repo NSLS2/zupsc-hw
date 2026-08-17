@@ -467,8 +467,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "myparts"
+    ],
+    "pinned_symbol_libs": [
+      "PSC"
+    ]
   },
   "meta": {
     "filename": "psc_daughter_brd.kicad_pro",
@@ -654,7 +658,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "R*",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
