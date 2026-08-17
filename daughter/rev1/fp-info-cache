@@ -1,4 +1,4 @@
-26764051428323044
+26781919745572816
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105249,7 +105249,7 @@ DFN-16_DE_LIT
 
 LTC2378IDE-20-PBF 
 0
-17
+22
 17
 myparts
 E-20-1_ADI
@@ -105265,6 +105265,27 @@ capacitor
 0
 4
 4
+myparts
+LFCSP16_ADA4945-1ACPZ-R2_ADI
+
+ADA4945-1ACPZ-R7 
+0
+17
+17
+myparts
+LFCSP16_ADA4945-1ACPZ-R2_ADI-L
+
+ADA4945-1ACPZ-R7 
+0
+17
+17
+myparts
+LFCSP16_ADA4945-1ACPZ-R2_ADI-M
+
+ADA4945-1ACPZ-R7 
+0
+17
+17
 myparts
 LT6202CS5
 
@@ -105315,6 +105336,34 @@ QFP50P1200X1200X160-64N
 65
 65
 myparts
+RM-8_ADI
+
+ADA4523-1BRMZ 
+0
+8
+8
+myparts
+RM-8_ADI-L
+
+ADA4523-1BRMZ 
+0
+8
+8
+myparts
+RM-8_ADI-M
+
+ADA4523-1BRMZ 
+0
+8
+8
+myparts
+RM_8_ADI
+
+AD8676BRMZ 
+0
+8
+8
+myparts
 R_8_ADI
 
 ADUM5242ARZ 
@@ -105325,6 +105374,27 @@ myparts
 SOIC127P600X175-8N
 
 
+0
+8
+8
+myparts
+SOIC_210DR_TEX
+
+THP210DR 
+0
+8
+8
+myparts
+SOIC_210DR_TEX-L
+
+THP210DR 
+0
+8
+8
+myparts
+SOIC_210DR_TEX-M
+
+THP210DR 
 0
 8
 8

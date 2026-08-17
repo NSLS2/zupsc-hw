@@ -1285,7 +1285,7 @@
 	)
 	(text "This Resistor is DNP!\n"
 		(exclude_from_sim no)
-		(at 162.814 46.482 0)
+		(at 135.89 43.942 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1298,12 +1298,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "042518cb-8175-42ac-9014-dae04f7afbdf")
-	)
-	(junction
-		(at 148.59 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2cf141a7-f2cb-4eb1-8a8f-f39f546e88fc")
 	)
 	(junction
 		(at 96.52 49.53)
@@ -1376,6 +1370,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "639e1e28-8dc5-4656-b2c2-253e3c3c7294")
+	)
+	(junction
+		(at 146.05 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6aecc5cb-010b-450d-9c47-2d17903dccef")
 	)
 	(junction
 		(at 50.8 49.53)
@@ -1456,10 +1456,10 @@
 		(uuid "bbd2002c-9fe1-40ed-9105-306668c86a25")
 	)
 	(junction
-		(at 138.43 49.53)
+		(at 156.21 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e755ba22-729b-48af-9d6c-c91e8912e62e")
+		(uuid "cca8f0de-8d6d-43d1-89a0-fb577fb63034")
 	)
 	(junction
 		(at 264.16 132.08)
@@ -1549,7 +1549,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 49.53) (xy 148.59 49.53)
+			(xy 146.05 49.53) (xy 156.21 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1629,7 +1629,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 60.96) (xy 148.59 59.69)
+			(xy 156.21 60.96) (xy 156.21 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1649,7 +1649,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 60.96) (xy 138.43 59.69)
+			(xy 146.05 60.96) (xy 146.05 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1719,16 +1719,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 49.53) (xy 138.43 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36fd3bd9-0998-4db7-8fc3-82226b046301")
-	)
-	(wire
-		(pts
 			(xy 179.07 81.28) (xy 185.42 81.28)
 		)
 		(stroke
@@ -1736,16 +1726,6 @@
 			(type default)
 		)
 		(uuid "374d8a37-697c-43d0-a9d0-c8bf95e0031e")
-	)
-	(wire
-		(pts
-			(xy 165.1 49.53) (xy 168.91 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d248633-c100-4414-a2e7-cbdb46f367e7")
 	)
 	(wire
 		(pts
@@ -1899,7 +1879,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 54.61) (xy 148.59 49.53)
+			(xy 156.21 54.61) (xy 156.21 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1959,6 +1939,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 49.53) (xy 146.05 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b738e5d-0730-4d0b-aae9-e58a27ae42f8")
+	)
+	(wire
+		(pts
 			(xy 308.61 133.35) (xy 317.5 133.35)
 		)
 		(stroke
@@ -2006,6 +1996,16 @@
 			(type default)
 		)
 		(uuid "69021a2f-d826-41ce-9ffb-0690748887a4")
+	)
+	(wire
+		(pts
+			(xy 156.21 49.53) (xy 168.91 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6938f662-cc85-41c4-b408-f508eb03c681")
 	)
 	(wire
 		(pts
@@ -2169,7 +2169,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 49.53) (xy 138.43 54.61)
+			(xy 146.05 49.53) (xy 146.05 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2446,16 +2446,6 @@
 			(type default)
 		)
 		(uuid "b028d8b9-4999-45e3-a15b-d32a7380f25c")
-	)
-	(wire
-		(pts
-			(xy 148.59 49.53) (xy 157.48 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b197d61f-3218-4a88-9a49-306c21c8fc30")
 	)
 	(wire
 		(pts
@@ -3841,7 +3831,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 138.43 57.15 0)
+		(at 146.05 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3849,7 +3839,7 @@
 		(dnp no)
 		(uuid "2231de56-42e2-4c8c-8246-7ce32637f6f8")
 		(property "Reference" "C155"
-			(at 140.97 55.8862 0)
+			(at 148.59 55.8862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +3848,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 140.97 58.4262 0)
+			(at 148.59 58.4262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,7 +3857,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 138.43 57.15 0)
+			(at 146.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,7 +3866,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 57.15 0)
+			(at 146.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3885,7 +3875,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 25V X5R 0603"
-			(at 138.43 57.15 0)
+			(at 146.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,7 +3884,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 142.748 60.706 0)
+			(at 150.368 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,7 +3893,7 @@
 			)
 		)
 		(property "MFG" "Samsung"
-			(at 138.43 57.15 0)
+			(at 146.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +3902,7 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC\n"
-			(at 138.43 57.15 0)
+			(at 146.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,100 +4157,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 161.29 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c782354-8a94-47c2-9469-258f33eb4a35")
-		(property "Reference" "R76"
-			(at 161.036 54.102 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 161.29 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 161.544 48.514 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
-			(at 161.29 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 157.988 46.736 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Panasonic"
-			(at 161.29 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" "ERJ-2GE0R00X"
-			(at 161.29 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6ef687e8-80a9-4d7e-87f8-4afaed660ff6")
-		)
-		(pin "1"
-			(uuid "25e1049e-e52c-4e3b-acf5-56ef547b7d37")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203"
-					(reference "R76")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 233.68 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4364,7 +4260,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 60.96 0)
+		(at 156.21 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4373,7 +4269,7 @@
 		(fields_autoplaced yes)
 		(uuid "69b8cefe-0cf2-4cf9-8b68-a765537ad978")
 		(property "Reference" "#PWR0228"
-			(at 148.59 67.31 0)
+			(at 156.21 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,7 +4278,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 66.04 0)
+			(at 156.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4391,7 +4287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 60.96 0)
+			(at 156.21 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +4296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 60.96 0)
+			(at 156.21 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +4305,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 60.96 0)
+			(at 156.21 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 60.96 0)
+		(at 146.05 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5214,7 +5110,7 @@
 		(fields_autoplaced yes)
 		(uuid "a77a91cd-b1ec-49c3-a100-d7feaeb23803")
 		(property "Reference" "#PWR0225"
-			(at 138.43 67.31 0)
+			(at 146.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5119,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 66.04 0)
+			(at 146.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +5128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,7 +5137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +5146,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,7 +5531,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 148.59 57.15 0)
+		(at 156.21 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5643,7 +5539,7 @@
 		(dnp no)
 		(uuid "d1f9fb7e-9ecd-41bb-8c44-eaf1d60e3b61")
 		(property "Reference" "C157"
-			(at 151.13 55.8862 0)
+			(at 158.75 55.8862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +5548,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 151.13 58.4262 0)
+			(at 158.75 58.4262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,7 +5557,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 148.59 57.15 0)
+			(at 156.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,7 +5566,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 57.15 0)
+			(at 156.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,7 +5575,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 25V X5R 0603"
-			(at 148.59 57.15 0)
+			(at 156.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5688,7 +5584,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 152.908 60.706 0)
+			(at 160.528 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5697,7 +5593,7 @@
 			)
 		)
 		(property "MFG" "Samsung"
-			(at 148.59 57.15 0)
+			(at 156.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5706,7 +5602,7 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC\n"
-			(at 148.59 57.15 0)
+			(at 156.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)

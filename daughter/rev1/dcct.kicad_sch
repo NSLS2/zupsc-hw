@@ -2574,30 +2574,32 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "THP210DR:THP210DR"
+		(symbol "PSC:THP210DR"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 29.718 11.684 0)
+			(property "Reference" "U21"
+				(at 25.0033 -12.7 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "THP210DR"
-				(at 30.48 8.89 0)
+				(at 25.0033 -15.24 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "SOIC_210DR_TEX"
+			(property "Footprint" "myparts:SOIC_210DR_TEX"
 				(at 12.7 -21.59 90)
 				(effects
 					(font
@@ -2624,14 +2626,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "THP210DR"
@@ -3313,6 +3307,12 @@
 		(uuid "440eae74-5142-4e6d-ae0c-775512648afe")
 	)
 	(junction
+		(at 234.95 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51edc67d-6b7b-42e2-ad2e-710c88f4b206")
+	)
+	(junction
 		(at 355.6 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3936,6 +3936,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 156.21) (xy 234.95 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4563212c-c4a2-4ac5-b5e1-ec8aa71964be")
+	)
+	(wire
+		(pts
 			(xy 116.84 90.17) (xy 128.27 90.17)
 		)
 		(stroke
@@ -3956,7 +3966,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 128.27) (xy 238.76 133.35)
+			(xy 238.76 128.27) (xy 238.76 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4386,6 +4396,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 165.1) (xy 234.95 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811efd22-373b-4afc-95a5-0b13e85e1991")
+	)
+	(wire
+		(pts
 			(xy 116.84 91.44) (xy 116.84 90.17)
 		)
 		(stroke
@@ -4686,7 +4706,17 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 133.35) (xy 238.76 133.35)
+			(xy 234.95 156.21) (xy 238.76 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dea3aff-0be9-401f-b7a6-2709f996c2dd")
+	)
+	(wire
+		(pts
+			(xy 223.52 156.21) (xy 234.95 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5510,7 +5540,7 @@
 	)
 	(hierarchical_label "drv_vref"
 		(shape input)
-		(at 236.22 133.35 180)
+		(at 223.52 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5551,6 +5581,77 @@
 			(justify left)
 		)
 		(uuid "eb08564c-4fcf-4345-99e3-13b5bc701ce2")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06cfb4c1-4be1-4361-8ab9-ce8caf52d6e4")
+		(property "Reference" "#PWR0298"
+			(at 234.95 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca24453d-d4f9-4c23-a680-9a8c595ad3fd")
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
+					(reference "#PWR0299")
+					(unit 1)
+				)
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
+					(reference "#PWR0298")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -6047,7 +6148,7 @@
 			(uuid "b994faf2-3ac2-4f56-87f0-8a2f909322a3")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
 					(reference "U8")
 					(unit 2)
@@ -6125,6 +6226,100 @@
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
 					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PSC:THP210DR")
+		(at 237.49 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f56b2b7-42b6-4fa5-b7e8-20937723bcfe")
+		(property "Reference" "U21"
+			(at 262.4933 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THP210DR"
+			(at 262.4933 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "myparts:SOIC_210DR_TEX"
+			(at 250.19 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/thp210"
+			(at 243.84 149.098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "76c212f5-f282-48c5-bc20-5a9581eb0967")
+		)
+		(pin "7"
+			(uuid "69cac680-cec6-4a48-b406-3efc34f7705d")
+		)
+		(pin "2"
+			(uuid "0cf245e3-3822-46f0-95e6-d00e85d5d147")
+		)
+		(pin "5"
+			(uuid "17c7ad87-4a02-4b93-b939-3e1452bf8e5c")
+		)
+		(pin "6"
+			(uuid "b6af1790-4127-4788-9d23-77c31e202154")
+		)
+		(pin "1"
+			(uuid "14bb4378-4ca2-49ef-bc21-63a0fee839fc")
+		)
+		(pin "3"
+			(uuid "9c5c5f6c-45ee-4855-8d4c-36fcec058723")
+		)
+		(pin "8"
+			(uuid "368ee591-a676-4056-a431-4b49f3cd2ab3")
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
+					(reference "U26")
+					(unit 1)
+				)
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
+					(reference "U21")
 					(unit 1)
 				)
 			)
@@ -6262,7 +6457,7 @@
 		(instances
 			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "#PWR0250")
+					(reference "#PWR0294")
 					(unit 1)
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
@@ -6827,7 +7022,7 @@
 		(instances
 			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "#PWR0249")
+					(reference "#PWR0296")
 					(unit 1)
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
@@ -6846,7 +7041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c1b703c-4617-4d92-82c4-3057d88c52b7")
-		(property "Reference" "R35"
+		(property "Reference" "R77"
 			(at 135.89 108.966 90)
 			(effects
 				(font
@@ -6946,7 +7141,7 @@
 					(unit 1)
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "R35")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -7012,7 +7207,7 @@
 		(instances
 			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "#PWR0246")
+					(reference "#PWR0277")
 					(unit 1)
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
@@ -7555,7 +7750,7 @@
 		(instances
 			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "#PWR0248")
+					(reference "#PWR0295")
 					(unit 1)
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
@@ -7922,7 +8117,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55687e2d-5491-47f2-a23b-bd6b03cf15c8")
-		(property "Reference" "C175"
+		(property "Reference" "C138"
 			(at 320.04 109.2262 0)
 			(effects
 				(font
@@ -8006,7 +8201,7 @@
 					(unit 1)
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "C175")
+					(reference "C138")
 					(unit 1)
 				)
 			)
@@ -8391,6 +8586,105 @@
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
 					(reference "#PWR0221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 234.95 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ebe8a3a-54c7-4075-8b49-b16cda1f4b30")
+		(property "Reference" "C150"
+			(at 237.49 161.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 237.49 163.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 234.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at 234.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 230.632 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 234.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 234.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5df69138-7b8c-4dd9-99a4-d62d39cb9bbe")
+		)
+		(pin "1"
+			(uuid "a9411048-a7be-40b8-a7e7-8485e22244f1")
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
+					(reference "C159")
+					(unit 1)
+				)
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
+					(reference "C150")
 					(unit 1)
 				)
 			)
@@ -9193,7 +9487,7 @@
 		(instances
 			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "#PWR0251")
+					(reference "#PWR0297")
 					(unit 1)
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
@@ -9327,7 +9621,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a06f74c1-f127-42a3-83ae-9e8d804191b3")
-		(property "Reference" "C174"
+		(property "Reference" "C149"
 			(at 281.94 163.8362 0)
 			(effects
 				(font
@@ -9411,7 +9705,7 @@
 					(unit 1)
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "C174")
+					(reference "C149")
 					(unit 1)
 				)
 			)
@@ -10087,7 +10381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6125960-b57f-40bc-8ca7-9341022f05dc")
-		(property "Reference" "C173"
+		(property "Reference" "C137"
 			(at 280.67 80.0162 0)
 			(effects
 				(font
@@ -10171,7 +10465,7 @@
 					(unit 1)
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "C173")
+					(reference "C137")
 					(unit 1)
 				)
 			)
@@ -10477,100 +10771,6 @@
 		)
 	)
 	(symbol
-		(lib_id "THP210DR:THP210DR")
-		(at 237.49 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c97348e6-7606-4363-b10d-19d76243ba05")
-		(property "Reference" "U21"
-			(at 262.4933 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "THP210DR"
-			(at 262.4933 135.89 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOIC_210DR_TEX"
-			(at 250.19 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/thp210"
-			(at 243.84 149.098 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "1a72d171-0876-456e-9137-f08ae51432f8")
-		)
-		(pin "4"
-			(uuid "077acc23-9566-4725-a761-6a5a22247c65")
-		)
-		(pin "5"
-			(uuid "120032af-8ed0-4e32-8dc1-bb2a2347ba27")
-		)
-		(pin "6"
-			(uuid "792574e1-4850-49dd-9b08-89351738286b")
-		)
-		(pin "1"
-			(uuid "2491d533-5165-4f9f-b3db-a1880a205e72")
-		)
-		(pin "3"
-			(uuid "eda1b6f2-4bc7-46e1-ba9f-8d7f2f618bb9")
-		)
-		(pin "8"
-			(uuid "aca7de3d-74e5-4ed8-bc2a-56517b991e66")
-		)
-		(pin "2"
-			(uuid "e652485b-a0ad-4624-828a-5dcba98c52fc")
-		)
-		(instances
-			(project ""
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "U22")
-					(unit 1)
-				)
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "U21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:AD8676xR")
 		(at 162.56 148.59 0)
 		(unit 3)
@@ -10650,7 +10850,7 @@
 			(uuid "b994faf2-3ac2-4f56-87f0-8a2f909322a4")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
 					(reference "U8")
 					(unit 3)
@@ -10911,7 +11111,7 @@
 			(uuid "b994faf2-3ac2-4f56-87f0-8a2f909322a5")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
 					(reference "U8")
 					(unit 1)
@@ -10987,7 +11187,7 @@
 			(uuid "9934fa3c-1ace-4086-b24c-bf54da36a736")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
 					(reference "D9")
 					(unit 1)
@@ -11370,7 +11570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db6906c3-e8c2-489b-b379-26c2274f9b48")
-		(property "Reference" "C171"
+		(property "Reference" "C136"
 			(at 270.51 80.0162 0)
 			(effects
 				(font
@@ -11455,7 +11655,7 @@
 					(unit 1)
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "C171")
+					(reference "C136")
 					(unit 1)
 				)
 			)
@@ -11610,7 +11810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3b44503-1e75-4f1a-b356-31119c730f4c")
-		(property "Reference" "C172"
+		(property "Reference" "C139"
 			(at 271.78 163.8362 0)
 			(effects
 				(font
@@ -11695,7 +11895,7 @@
 					(unit 1)
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "C172")
+					(reference "C139")
 					(unit 1)
 				)
 			)
@@ -12774,7 +12974,7 @@
 		(instances
 			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "#PWR0247")
+					(reference "#PWR0293")
 					(unit 1)
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"

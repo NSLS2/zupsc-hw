@@ -1734,7 +1734,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 133.35) (xy 378.46 133.35)
+			(xy 364.49 133.35) (xy 374.65 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2121,6 +2121,16 @@
 			(type default)
 		)
 		(uuid "8737b33a-29b0-4afc-9a5e-21bc9c75decd")
+	)
+	(wire
+		(pts
+			(xy 382.27 133.35) (xy 388.62 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "888f9baa-faf5-4ce3-ade5-b8cbb8e8ec2e")
 	)
 	(wire
 		(pts
@@ -2594,7 +2604,7 @@
 	)
 	(hierarchical_label "adc_ref_out"
 		(shape input)
-		(at 378.46 133.35 0)
+		(at 388.62 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4045,6 +4055,100 @@
 			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/dea95122-986e-41c8-b99e-e429cc6f4cd5/4999e499-3966-4a05-8928-c40234f9b048"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 378.46 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37ff5e13-d42d-4ea0-83a2-a8434186a2cf")
+		(property "Reference" "R76"
+			(at 378.206 135.636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 378.206 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 378.206 134.366 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 0805 2 OHM 0.1%"
+			(at 378.46 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 378.46 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Stackpole"
+			(at 378.46 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "RNCA0805BTS2K00"
+			(at 378.46 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efecf8ec-e190-4311-a327-b16c55b6fdb0")
+		)
+		(pin "1"
+			(uuid "cb333a01-0a06-4e6a-a213-621cf4cc09ea")
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/dea95122-986e-41c8-b99e-e429cc6f4cd5/4999e499-3966-4a05-8928-c40234f9b048"
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -5755,7 +5859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RM-8_ADI"
+		(property "Footprint" "myparts:RM-8_ADI"
 			(at 284.48 133.35 0)
 			(effects
 				(font
@@ -5809,7 +5913,7 @@
 			(uuid "35e9f0f0-a491-4fdc-832f-6e6db4842391")
 		)
 		(instances
-			(project ""
+			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/dea95122-986e-41c8-b99e-e429cc6f4cd5/4999e499-3966-4a05-8928-c40234f9b048"
 					(reference "U24")
 					(unit 1)

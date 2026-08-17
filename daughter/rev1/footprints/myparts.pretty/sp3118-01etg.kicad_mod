@@ -165,8 +165,8 @@
 		(uuid "a000d088-568d-4457-8456-5fc0ec4959c8")
 	)
 	(fp_circle
-		(center -1 0.35)
-		(end -0.95 0.35)
+		(center -0.6 0.8)
+		(end -0.55 0.85)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -280,8 +280,8 @@
 		(uuid "5595f8c0-d182-4a08-b005-d551dca8ec83")
 	)
 	(fp_circle
-		(center -1 0.35)
-		(end -0.95 0.35)
+		(center -0.6 0.8)
+		(end -0.55 0.8)
 		(stroke
 			(width 0.2)
 			(type solid)
