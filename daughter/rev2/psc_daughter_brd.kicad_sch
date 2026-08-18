@@ -569,6 +569,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 200.66) (xy 152.4 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a753d3c-0a7f-4c25-a101-b45941135009")
+	)
+	(wire
+		(pts
 			(xy 149.86 189.23) (xy 161.29 189.23)
 		)
 		(stroke
@@ -679,6 +689,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 200.66) (xy 152.4 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83706789-ee61-4511-b0b1-a8093c2b8e37")
+	)
+	(wire
+		(pts
 			(xy 128.27 161.29) (xy 161.29 161.29)
 		)
 		(stroke
@@ -766,6 +786,16 @@
 			(type default)
 		)
 		(uuid "b516af03-c0b6-485f-ab83-0c747bafb6da")
+	)
+	(wire
+		(pts
+			(xy 152.4 116.84) (xy 161.29 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9aa826e-5b90-44a5-9b72-3d33f016b366")
 	)
 	(wire
 		(pts
@@ -3203,6 +3233,16 @@
 				(justify left)
 			)
 		)
+		(pin "dac_aux_ref_out" output
+			(at 161.29 200.66 180)
+			(uuid "12cf11ea-921f-411a-8ba3-6ef200be8d9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
@@ -3308,6 +3348,16 @@
 		(pin "adc_ref_out" input
 			(at 161.29 111.76 180)
 			(uuid "7446198a-3724-4554-906f-a0029755896e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "dac_aux_ref_in" input
+			(at 161.29 116.84 180)
+			(uuid "9e1fc9de-248e-4733-8b66-81a96e7e964e")
 			(effects
 				(font
 					(size 1.27 1.27)

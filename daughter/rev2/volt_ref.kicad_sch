@@ -1376,6 +1376,16 @@
 		)
 		(uuid "23f6d169-8081-4bed-97ee-c5470df27d2f")
 	)
+	(text "Primary 5V ref\n"
+		(exclude_from_sim no)
+		(at 395.224 131.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "40f1d953-46f8-40e9-b313-4cfa09f7bd46")
+	)
 	(text "DNP use cap if needed\n"
 		(exclude_from_sim no)
 		(at 294.64 152.654 0)
@@ -1385,6 +1395,16 @@
 			)
 		)
 		(uuid "cf0f058a-16fb-47c7-a8d1-fb4599509e36")
+	)
+	(text "Primary 10V ref\n"
+		(exclude_from_sim no)
+		(at 308.356 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f2d40e23-2bfc-457c-89ff-9a0463b93f5e")
 	)
 	(junction
 		(at 364.49 133.35)
@@ -2334,6 +2354,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 101.6) (xy 303.53 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb084c50-b360-4816-afca-b2a67ba55d1f")
+	)
+	(wire
+		(pts
 			(xy 157.48 85.09) (xy 166.37 85.09)
 		)
 		(stroke
@@ -2434,7 +2464,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 101.6) (xy 284.48 101.6)
+			(xy 276.86 101.6) (xy 285.75 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2615,7 +2645,7 @@
 	)
 	(hierarchical_label "REF_OUT"
 		(shape input)
-		(at 284.48 101.6 0)
+		(at 303.53 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3600,6 +3630,100 @@
 			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/dea95122-986e-41c8-b99e-e429cc6f4cd5/4999e499-3966-4a05-8928-c40234f9b048"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 289.56 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dec0be9-550d-42e7-bd3e-765fc2f3c07c")
+		(property "Reference" "R79"
+			(at 289.306 103.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 289.306 105.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 289.306 102.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 289.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 0805 2 OHM 0.1%"
+			(at 289.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 289.56 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Stackpole"
+			(at 289.56 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "RNCA0805BTS2K00"
+			(at 289.56 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38c12522-8dd3-4037-9435-cf7721afdf89")
+		)
+		(pin "1"
+			(uuid "fb1a89a9-bf82-467e-8787-b426d9fdd9f4")
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/dea95122-986e-41c8-b99e-e429cc6f4cd5/4999e499-3966-4a05-8928-c40234f9b048"
+					(reference "R79")
 					(unit 1)
 				)
 			)
