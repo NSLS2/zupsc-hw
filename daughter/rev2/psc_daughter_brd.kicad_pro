@@ -727,10 +727,6 @@
       "DAC"
     ],
     [
-      "4999e499-3966-4a05-8928-c40234f9b048",
-      "Voltage Reference"
-    ],
-    [
       "79a78ff4-0a06-4569-970f-a218b7d7f7b9",
       "Monitor ADCs"
     ],
@@ -765,6 +761,10 @@
     [
       "2218990c-df93-405e-a560-4b3f2a81eb40",
       "FPGA connector"
+    ],
+    [
+      "4d04cddb-fc2a-4f2d-a826-26b8b4690eb4",
+      "Voltage Reference"
     ],
     [
       "979dab62-5512-4152-97ee-117138a961d3",

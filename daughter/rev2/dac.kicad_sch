@@ -2494,12 +2494,6 @@
 		(uuid "ed5856bf-df36-4bf4-8aac-ba202f4142cf")
 	)
 	(junction
-		(at 62.23 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0e54a1a-8230-4708-a5f2-69c89ef15d0e")
-	)
-	(junction
 		(at 262.89 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2740,16 +2734,6 @@
 			(type default)
 		)
 		(uuid "1b2b5f03-0541-4dae-9a3b-5e7504b5a819")
-	)
-	(wire
-		(pts
-			(xy 40.64 39.37) (xy 48.26 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b84e8c3-d6fb-4a22-8852-3590fdb99b79")
 	)
 	(wire
 		(pts
@@ -3333,16 +3317,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 53.34) (xy 62.23 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6da8e5d4-cd21-41f6-8da5-733b7223ed7a")
-	)
-	(wire
-		(pts
 			(xy 152.4 115.57) (xy 189.23 115.57)
 		)
 		(stroke
@@ -3723,16 +3697,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 53.34) (xy 62.23 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a274714d-ac6b-4f96-8796-416b8101cf82")
-	)
-	(wire
-		(pts
 			(xy 149.86 140.97) (xy 149.86 138.43)
 		)
 		(stroke
@@ -4013,16 +3977,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 34.29) (xy 62.23 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6bfde53-1a2e-4ead-b9bb-1550818e5234")
-	)
-	(wire
-		(pts
 			(xy 257.81 182.88) (xy 257.81 179.07)
 		)
 		(stroke
@@ -4143,7 +4097,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 34.29) (xy 69.85 34.29)
+			(xy 40.64 34.29) (xy 69.85 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4561,16 +4515,6 @@
 		)
 		(uuid "fa05e906-add5-425a-b64f-cf6c959cbac0")
 	)
-	(label "10V_VREF"
-		(at 47.5762 33.8992 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e47754d2-81ce-40c4-b9d5-b23185ffa9aa")
-	)
 	(hierarchical_label "sclk"
 		(shape input)
 		(at 62.23 113.03 180)
@@ -4582,20 +4526,31 @@
 		)
 		(uuid "28f9b0da-4a26-4f79-b9a6-0a4803ca76d3")
 	)
-	(hierarchical_label "dac_mon"
-		(shape input)
-		(at 287.02 62.23 0)
+	(hierarchical_label "dac_vout+"
+		(shape output)
+		(at 363.22 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "43e32907-9ff7-4b07-950d-c1b56aad0f43")
+		(uuid "2ee0792b-33e4-4dd0-8d6b-f1d0d76f93e5")
 	)
-	(hierarchical_label "dac_aux_ref_in"
+	(hierarchical_label "dac_vout-"
+		(shape output)
+		(at 363.22 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3391d880-243d-4b23-9ee1-b6cba05c627d")
+	)
+	(hierarchical_label "dac_vref"
 		(shape input)
-		(at 31.75 53.34 180)
+		(at 40.64 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4626,38 +4581,16 @@
 		)
 		(uuid "8513e57a-82b0-49d5-a178-c7cfeb4e3ff4")
 	)
-	(hierarchical_label "adc_ref_out"
-		(shape input)
-		(at 48.26 39.37 0)
+	(hierarchical_label "dac_mon"
+		(shape output)
+		(at 287.02 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "bc6fe2e1-4bab-421d-ab9f-2bc9be7da3f8")
-	)
-	(hierarchical_label "dac_out+"
-		(shape input)
-		(at 363.22 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c55cca2e-4dde-4f71-b9b7-815d09251daf")
-	)
-	(hierarchical_label "dac_vout-"
-		(shape input)
-		(at 363.22 177.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dead0820-0c8c-4f59-8e0f-6678a9e19192")
+		(uuid "8e64c116-794e-4970-95d6-355240d17e02")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -12900,78 +12833,6 @@
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/dea95122-986e-41c8-b99e-e429cc6f4cd5"
 					(reference "C11")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 20.32 25.4)
-		(size 20.32 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 255 194 1.0000)
-		)
-		(uuid "4999e499-3966-4a05-8928-c40234f9b048")
-		(property "Sheetname" "Voltage Reference"
-			(at 20.32 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "volt_ref.kicad_sch"
-			(at 20.32 43.7646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "PWR_GOOD" input
-			(at 40.64 29.21 0)
-			(uuid "4ce864ea-7e63-41c7-8713-e687458975ed")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "REF_OUT" input
-			(at 40.64 34.29 0)
-			(uuid "29ec7bb7-2915-49c9-b2b1-ac1725bbea4c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "adc_ref_out" input
-			(at 40.64 39.37 0)
-			(uuid "e54f5ea0-423a-4554-88ee-7e14a695ecef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/dea95122-986e-41c8-b99e-e429cc6f4cd5"
-					(page "4")
 				)
 			)
 		)
