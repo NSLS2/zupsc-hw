@@ -12475,7 +12475,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R79"
-			(at -0.153641 2.413 90)
+			(at -0.125 1.143 90)
 			(layer "F.SilkS")
 			(uuid "adba521f-7294-4ba6-87b2-3b7d220a9439")
 			(effects
@@ -12508,7 +12508,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 0805 2 OHM 0.1%"
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12520,7 +12520,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "0.1%"
+		(property "Tolerance" "1%"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12533,7 +12533,7 @@
 				)
 			)
 		)
-		(property "MFG" "Stackpole"
+		(property "MFG" "Panasonic"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12546,7 +12546,7 @@
 				)
 			)
 		)
-		(property "MFG_PN" "RNCA0805BTS2K00"
+		(property "MFG_PN" "ERJ-2GE0R00X"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12560,7 +12560,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4/37ff5e13-d42d-4ea0-83a2-a8434186a2cf")
+		(path "/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4/dc8fa55f-edfa-4e7d-a290-c93f4ae19391")
 		(sheetname "/Voltage Reference/")
 		(sheetfile "volt_ref.kicad_sch")
 		(attr smd)
@@ -25937,7 +25937,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 0805 2 OHM 0.1%"
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25949,7 +25949,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "0.1%"
+		(property "Tolerance" "1%"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25962,7 +25962,7 @@
 				)
 			)
 		)
-		(property "MFG" "Stackpole"
+		(property "MFG" "Panasonic"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25975,7 +25975,7 @@
 				)
 			)
 		)
-		(property "MFG_PN" "RNCA0805BTS2K00"
+		(property "MFG_PN" "ERJ-2GE0R00X"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25989,7 +25989,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4/c40994d0-4efa-490b-8bac-d67c30d4b3b8")
+		(path "/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4/0058e762-65a9-43ee-a723-847e7c7d006f")
 		(sheetname "/Voltage Reference/")
 		(sheetfile "volt_ref.kicad_sch")
 		(attr smd)
@@ -35153,7 +35153,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R83"
-			(at -0.155641 2.159 90)
+			(at 0 -1.27 90)
 			(layer "F.SilkS")
 			(uuid "78b8aa57-839e-4751-96cf-df24b705c75e")
 			(effects
@@ -35186,7 +35186,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 0805 2 OHM 0.1%"
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -35198,7 +35198,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "0.1%"
+		(property "Tolerance" "1%"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35211,7 +35211,7 @@
 				)
 			)
 		)
-		(property "MFG" "Stackpole"
+		(property "MFG" "Panasonic"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35224,7 +35224,7 @@
 				)
 			)
 		)
-		(property "MFG_PN" "RNCA0805BTS2K00"
+		(property "MFG_PN" "ERJ-2GE0R00X"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35238,7 +35238,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4/97d62342-b2f2-46a3-bfc5-5223c86f6b87")
+		(path "/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4/d084fb0a-1661-466d-acdd-806fde534dd2")
 		(sheetname "/Voltage Reference/")
 		(sheetfile "volt_ref.kicad_sch")
 		(attr smd)
@@ -46228,7 +46228,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 0805 2 OHM 0.1%"
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -46240,7 +46240,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "0.1%"
+		(property "Tolerance" "1%"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46253,7 +46253,7 @@
 				)
 			)
 		)
-		(property "MFG" "Stackpole"
+		(property "MFG" "Panasonic"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46266,7 +46266,7 @@
 				)
 			)
 		)
-		(property "MFG_PN" "RNCA0805BTS2K00"
+		(property "MFG_PN" "ERJ-2GE0R00X"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46293,7 +46293,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4/1dec0be9-550d-42e7-bd3e-765fc2f3c07c")
+		(path "/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4/feb2e7dd-07b2-401d-a419-9916210c77b3")
 		(sheetname "/Voltage Reference/")
 		(sheetfile "volt_ref.kicad_sch")
 		(attr smd)

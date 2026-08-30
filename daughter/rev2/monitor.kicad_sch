@@ -4624,6 +4624,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 245.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "02f3abd8-eb85-411c-a0d9-23cecece2ed3")
 		)
@@ -5070,6 +5079,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f446544-6241-42fd-9e9b-c8b8d7eae768")
 		)
@@ -5233,6 +5251,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".07"
+			(at 233.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a41c37a-e89b-4aea-bf68-842c3373e900")
 		)
@@ -5321,6 +5348,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 222.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".07"
 			(at 222.25 114.3 0)
 			(effects
 				(font
@@ -5424,6 +5460,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 214.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "380817eb-b5e2-4920-ad3d-9e4d5317aff9")
 		)
@@ -5519,6 +5564,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 204.47 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "24d52400-8358-4a1e-a47c-367d7756f306")
 		)
@@ -5606,6 +5660,15 @@
 			)
 		)
 		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 245.11 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
 			(at 245.11 217.17 0)
 			(effects
 				(font
@@ -5909,6 +5972,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".07"
+			(at 233.68 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be0c1ee1-3e33-419e-901a-4eefb5556466")
 		)
@@ -6130,6 +6202,15 @@
 			)
 		)
 		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 194.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
 			(at 194.31 58.42 0)
 			(effects
 				(font
@@ -6368,6 +6449,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".07"
+			(at 276.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f387ef07-2641-420e-8704-3e664ba7bed7")
 		)
@@ -6523,6 +6613,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 222.25 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".07"
 			(at 222.25 175.26 0)
 			(effects
 				(font
@@ -6693,6 +6792,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 288.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "98dfb55f-0948-4769-b7bf-61e57fa9bd76")
 		)
@@ -6781,6 +6889,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 222.25 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".07"
 			(at 222.25 137.16 0)
 			(effects
 				(font
@@ -6884,6 +7001,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 184.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ef6ae5d-92ce-41ba-a0d0-2779d06de97e")
 		)
@@ -6971,6 +7097,15 @@
 			)
 		)
 		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 226.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
 			(at 226.06 58.42 0)
 			(effects
 				(font
@@ -7142,6 +7277,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".07"
+			(at 222.25 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a6fb8ec6-c77e-41b5-8d26-611d61180ed0")
 		)
@@ -7230,6 +7374,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 222.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".07"
 			(at 222.25 91.44 0)
 			(effects
 				(font

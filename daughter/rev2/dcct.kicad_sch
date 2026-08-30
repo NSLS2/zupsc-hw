@@ -5984,6 +5984,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".07"
+			(at 186.69 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e2ed37d-3c94-44de-b708-cd591cb0a621")
 		)
@@ -6186,7 +6195,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual operational amplifier, Ultra-precision, 36V, Rail-to-rail output, SOIC-8"
+		(property "Description" "IC OPAMP GP 2 CIRCUIT 8SOIC"
+			(at 198.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "5.91"
+			(at 198.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 198.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "AD8676BRZ"
 			(at 198.12 116.84 0)
 			(effects
 				(font
@@ -6351,7 +6387,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC OPAMP DIFF 1 CIRCUIT 8SOIC"
+			(at 237.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "3.46"
+			(at 237.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "TI"
+			(at 237.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "THP210DR"
 			(at 237.49 120.65 0)
 			(effects
 				(font
@@ -6817,7 +6880,7 @@
 				)
 			)
 		)
-		(property "MFG" "Kemet"
+		(property "MFG" "Murata"
 			(at 156.21 88.9 0)
 			(effects
 				(font
@@ -6826,8 +6889,17 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PN" "C0603C302J3GACTU"
+		(property "MFG_PN" "C0603C302J5GACTU"
 			(at 156.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".14"
+			(at 156.21 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8045,7 +8117,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PN" "CAP CER 3300PF 50V X7R 0402"
+		(property "MFG_PN" "CL05B682KB5NNNC"
+			(at 317.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
 			(at 317.5 135.89 0)
 			(effects
 				(font
@@ -8322,7 +8403,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PN" "CAP CER 3300PF 50V X7R 0402"
+		(property "MFG_PN" "CL05B682KB5NNNC"
+			(at 317.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
 			(at 317.5 110.49 0)
 			(effects
 				(font
@@ -8430,6 +8520,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2bfc19ec-1be7-4f2c-824e-38ea704b9d29")
 		)
@@ -8521,6 +8620,15 @@
 			)
 		)
 		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 175.26 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
 			(at 175.26 165.1 0)
 			(effects
 				(font
@@ -8814,6 +8922,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 234.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5df69138-7b8c-4dd9-99a4-d62d39cb9bbe")
 		)
@@ -8906,6 +9023,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 347.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".07"
 			(at 347.98 90.17 0)
 			(effects
 				(font
@@ -9332,6 +9458,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".07"
 			(at 175.26 137.16 0)
 			(effects
 				(font
@@ -9835,6 +9970,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 279.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb21ceab-ece1-43bb-8aaa-135971844edb")
 		)
@@ -10049,6 +10193,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 391.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cfa7996e-d35f-47da-bd65-6eec1f3b2055")
 		)
@@ -10219,6 +10372,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5dfe157f-aeaa-4983-9fe3-47abec44e930")
 		)
@@ -10381,6 +10543,15 @@
 			)
 		)
 		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 358.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
 			(at 358.14 90.17 0)
 			(effects
 				(font
@@ -10595,6 +10766,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 278.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "28578fb9-9607-488d-974f-5f62b706f91a")
 		)
@@ -10766,6 +10946,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".07"
+			(at 381 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c234e565-8ac8-4e79-bdde-6e405fe04175")
 		)
@@ -10858,6 +11047,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 116.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".07"
 			(at 116.84 93.98 0)
 			(effects
 				(font
@@ -10965,6 +11163,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".90"
+			(at 195.58 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "92e5012f-1e7f-4417-bf72-708c6def5303")
 		)
@@ -11030,7 +11237,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual operational amplifier, Ultra-precision, 36V, Rail-to-rail output, SOIC-8"
+		(property "Description" "IC OPAMP GP 2 CIRCUIT 8SOIC"
+			(at 162.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "5.91"
+			(at 162.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 162.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "AD8676BRZ"
 			(at 162.56 148.59 0)
 			(effects
 				(font
@@ -11228,6 +11462,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".07"
+			(at 113.03 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd56dc5a-546a-49c4-9d6a-9010cbef2900")
 		)
@@ -11291,7 +11534,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual operational amplifier, Ultra-precision, 36V, Rail-to-rail output, SOIC-8"
+		(property "Description" "IC OPAMP GP 2 CIRCUIT 8SOIC"
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "5.91"
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "AD8676BRZ"
 			(at 157.48 114.3 0)
 			(effects
 				(font
@@ -11382,7 +11652,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+		(property "Description" "DIODE ARR SCHOTT 30V 200MA SOT23"
+			(at 130.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".1"
+			(at 130.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Diotec Semiconductor"
+			(at 130.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "BAT54S"
 			(at 130.81 133.35 0)
 			(effects
 				(font
@@ -11856,6 +12153,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".07"
+			(at 267.97 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f86dc831-6e66-4b9d-bb49-8a37f5949e1a")
 		)
@@ -12096,6 +12402,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".07"
+			(at 269.24 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb0a75d6-31d0-4f98-bc79-3e298c226a91")
 		)
@@ -12188,6 +12503,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 330.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".07"
 			(at 330.2 91.44 0)
 			(effects
 				(font
@@ -12653,6 +12977,15 @@
 			)
 		)
 		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 101.6 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
 			(at 101.6 140.97 0)
 			(effects
 				(font
@@ -13228,6 +13561,15 @@
 			)
 		)
 		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 335.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
 			(at 335.28 91.44 0)
 			(effects
 				(font

@@ -2781,7 +2781,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 163.83) (xy 274.32 123.19)
+			(xy 273.05 163.83) (xy 273.05 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3601,6 +3601,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 123.19) (xy 274.32 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9993093c-5646-4c63-8014-b6a55431716a")
+	)
+	(wire
+		(pts
 			(xy 184.15 109.22) (xy 185.42 109.22)
 		)
 		(stroke
@@ -3651,7 +3661,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 163.83) (xy 274.32 163.83)
+			(xy 199.39 163.83) (xy 273.05 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4362,6 +4372,109 @@
 		(uuid "ca87c9dc-09d4-4881-ad97-f46556b3e327")
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 335.28 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0058e762-65a9-43ee-a723-847e7c7d006f")
+		(property "Reference" "R82"
+			(at 335.28 70.866 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 335.28 75.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 335.026 74.676 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
+			(at 335.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 335.28 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 335.28 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2GE0R00X"
+			(at 335.28 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 335.28 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c4b17cf-6f47-43c9-9805-9fab1e704e81")
+		)
+		(pin "1"
+			(uuid "78a30df4-aa38-425a-8f7a-a92835097667")
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4"
+					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 171.45 71.12 0)
 		(unit 1)
@@ -4434,6 +4547,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 171.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".07"
 			(at 171.45 71.12 0)
 			(effects
 				(font
@@ -4537,6 +4659,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 43.18 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9b1e506a-92d1-4dc5-b52d-2d5ebfceb4e9")
 		)
@@ -4625,6 +4756,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 215.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".07"
 			(at 215.9 95.25 0)
 			(effects
 				(font
@@ -4796,6 +4936,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".07"
+			(at 33.02 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efbdb153-d13e-46e5-b037-3c188f91f6de")
 		)
@@ -4891,6 +5040,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 149.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f000d07-5e3a-4e70-8a92-9bac41eacbcd")
 		)
@@ -4978,6 +5136,15 @@
 			)
 		)
 		(property "MFG_PN" "CGA4J1X7R1H475K125AC"
+			(at 185.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".18"
 			(at 185.42 120.65 0)
 			(effects
 				(font
@@ -5274,6 +5441,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 128.27 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".07"
 			(at 128.27 219.71 0)
 			(effects
 				(font
@@ -5794,6 +5970,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 214.63 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b045fb50-7df2-40aa-bdaa-c277e9b67321")
 		)
@@ -5993,100 +6178,6 @@
 			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4"
 					(reference "U20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 335.28 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1dec0be9-550d-42e7-bd3e-765fc2f3c07c")
-		(property "Reference" "R49"
-			(at 335.026 68.326 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 335.026 70.104 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 335.026 67.056 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 335.28 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0805 2 OHM 0.1%"
-			(at 335.28 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "0.1%"
-			(at 335.28 62.992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Stackpole"
-			(at 335.28 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" "RNCA0805BTS2K00"
-			(at 335.28 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "04bd2c9b-30e6-4563-956d-b0b0f1ce7642")
-		)
-		(pin "1"
-			(uuid "c5307bff-3a42-4f5a-ae30-e181ed3df445")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4"
-					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -6307,6 +6398,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".07"
+			(at 147.32 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4fda7c54-46c0-4002-bfd4-1e24e55426ef")
 		)
@@ -6377,7 +6477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "100.10"
+		(property "Cost" "125.06"
 			(at 74.93 62.23 0)
 			(effects
 				(font
@@ -6626,6 +6726,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".38"
+			(at 190.5 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "81c38cfb-1ed5-4ece-8b2b-4b313a824578")
 		)
@@ -6770,100 +6879,6 @@
 			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4"
 					(reference "#PWR0303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 278.13 111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37ff5e13-d42d-4ea0-83a2-a8434186a2cf")
-		(property "Reference" "R79"
-			(at 277.876 114.046 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 277.876 115.824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 277.876 112.776 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 278.13 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0805 2 OHM 0.1%"
-			(at 278.13 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "0.1%"
-			(at 278.13 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Stackpole"
-			(at 278.13 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" "RNCA0805BTS2K00"
-			(at 278.13 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8377ca92-bf34-425b-a740-d184befb7565")
-		)
-		(pin "1"
-			(uuid "b1fe9f60-10fc-46ac-8200-4b096ce7dd11")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4"
-					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -7083,6 +7098,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 257.81 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7dbe89de-88cc-46e8-9e67-478625a7838b")
 		)
@@ -7208,7 +7232,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC OPAMP GP 1 CIRCUIT TSOT23-5"
+			(at 205.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 205.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "LT6202CS5#TRPBF"
+			(at 205.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "4.51"
 			(at 205.74 105.41 0)
 			(effects
 				(font
@@ -7388,6 +7439,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 171.45 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dd9767d9-6b27-4046-9900-3ce038a7d1ad")
 		)
@@ -7475,6 +7535,15 @@
 			)
 		)
 		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 218.44 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
 			(at 218.44 204.47 0)
 			(effects
 				(font
@@ -7777,6 +7846,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 35.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "675087c4-c5c4-4c5d-81eb-e5aca9b88e9e")
 		)
@@ -7863,7 +7941,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PN" "MLAST32MAB5476MPNDT1"
+		(property "MFG_PN" "MSAST32MAB5476MPNDT1"
+			(at 241.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".62"
 			(at 241.3 115.57 0)
 			(effects
 				(font
@@ -8144,6 +8231,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 33.02 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "244431b3-ea0f-4c3c-9984-3faff64d80b3")
 		)
@@ -8211,7 +8307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "3.79"
+		(property "Cost" "4.51"
 			(at 212.09 208.28 0)
 			(effects
 				(font
@@ -8343,6 +8439,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".07"
+			(at 81.28 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f320de2a-8fc6-464b-8a7f-8cc1dca07a26")
 		)
@@ -8430,6 +8535,15 @@
 			)
 		)
 		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 91.44 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
 			(at 91.44 220.98 0)
 			(effects
 				(font
@@ -8724,6 +8838,15 @@
 			)
 		)
 		(property "MFG_PN" "ERJ-2RKF7872X"
+			(at 63.5 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
 			(at 63.5 90.17 90)
 			(effects
 				(font
@@ -9032,100 +9155,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 278.13 123.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97d62342-b2f2-46a3-bfc5-5223c86f6b87")
-		(property "Reference" "R83"
-			(at 277.876 125.476 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 277.876 127.254 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 277.876 124.206 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 278.13 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0805 2 OHM 0.1%"
-			(at 278.13 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "0.1%"
-			(at 278.13 120.142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Stackpole"
-			(at 278.13 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" "RNCA0805BTS2K00"
-			(at 278.13 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7ef6a542-44a7-429f-9045-1eb169a86e02")
-		)
-		(pin "1"
-			(uuid "73defb14-c541-4177-9ea7-ff77fb17c165")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4"
-					(reference "R83")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 227.33 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9195,6 +9224,15 @@
 			)
 		)
 		(property "MFG_PN" "RNCA0805BTS2K00"
+			(at 227.33 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".28"
 			(at 227.33 111.76 90)
 			(effects
 				(font
@@ -9365,6 +9403,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 160.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0ed9665c-ae0f-4818-978d-f0f680ba431e")
 		)
@@ -9452,6 +9499,15 @@
 			)
 		)
 		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
 			(at 227.33 95.25 0)
 			(effects
 				(font
@@ -9548,6 +9604,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 246.38 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".07"
 			(at 246.38 218.44 0)
 			(effects
 				(font
@@ -9860,6 +9925,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".38"
+			(at 196.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "97075c32-f438-4ba7-8718-9aba66f02ffb")
 		)
@@ -9948,6 +10022,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 173.99 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".07"
 			(at 173.99 93.98 0)
 			(effects
 				(font
@@ -10126,6 +10209,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".38"
+			(at 204.47 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2ef11a80-ae3f-4cb8-91f1-ee8097a63e3c")
 		)
@@ -10186,7 +10278,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC OPAMP ZER-DRIFT 1CIRC 8MSOP"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "2.72"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ADA4523-1BRMZ"
 			(at 161.29 111.76 0)
 			(effects
 				(font
@@ -10300,6 +10419,15 @@
 			)
 		)
 		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
 			(at 185.42 93.98 0)
 			(effects
 				(font
@@ -10459,100 +10587,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 335.28 73.66 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c40994d0-4efa-490b-8bac-d67c30d4b3b8")
-		(property "Reference" "R82"
-			(at 335.026 75.946 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 335.026 77.724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 335.026 74.676 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 335.28 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0805 2 OHM 0.1%"
-			(at 335.28 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "0.1%"
-			(at 335.28 70.612 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Stackpole"
-			(at 335.28 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" "RNCA0805BTS2K00"
-			(at 335.28 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5eb8892d-2e69-4cab-892c-9d058cf05f9b")
-		)
-		(pin "1"
-			(uuid "d315a2f9-b81b-4396-88c5-00f30648a462")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4"
-					(reference "R82")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 68.58 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10622,6 +10656,15 @@
 			)
 		)
 		(property "MFG_PN" "ERJ-2GE0R00X"
+			(at 68.58 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
 			(at 68.58 64.77 90)
 			(effects
 				(font
@@ -10725,6 +10768,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 52.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f414730b-1f14-4b48-950e-bf07716cf96a")
 		)
@@ -10735,6 +10787,109 @@
 			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4"
 					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 278.13 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d084fb0a-1661-466d-acdd-806fde534dd2")
+		(property "Reference" "R83"
+			(at 278.13 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 278.13 125.476 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 277.876 124.206 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
+			(at 278.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 278.13 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 278.13 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2GE0R00X"
+			(at 278.13 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 278.13 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "860ea576-7752-40af-a754-141436afdba3")
+		)
+		(pin "1"
+			(uuid "3d37f2e9-147b-4d90-95ff-dad70077306d")
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4"
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -10880,6 +11035,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 157.48 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".07"
 			(at 157.48 219.71 0)
 			(effects
 				(font
@@ -11221,6 +11385,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".07"
+			(at 38.1 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcfc6173-1783-4806-8dfe-cf6a2fb2be46")
 		)
@@ -11317,6 +11490,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".07"
+			(at 40.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "432d97fa-c119-4315-b8cd-59beefdb4983")
 		)
@@ -11394,6 +11576,109 @@
 			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4"
 					(reference "#PWR0220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 278.13 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc8fa55f-edfa-4e7d-a290-c93f4ae19391")
+		(property "Reference" "R79"
+			(at 278.13 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 278.13 114.046 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 277.876 112.776 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
+			(at 278.13 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 278.13 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 278.13 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2GE0R00X"
+			(at 278.13 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 278.13 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e165095-e44f-4b9b-bb0d-9d484de83e46")
+		)
+		(pin "1"
+			(uuid "758dc6c7-0f85-480f-9791-eb55d36de758")
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4"
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -11678,6 +11963,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" ".01"
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb0f5fca-d035-4851-9a0d-0ac7178ebede")
 		)
@@ -11688,6 +11982,109 @@
 			(project "psc_daughter_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 335.28 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "feb2e7dd-07b2-401d-a419-9916210c77b3")
+		(property "Reference" "R49"
+			(at 335.28 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 335.28 68.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 335.026 67.056 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
+			(at 335.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 335.28 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 335.28 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2GE0R00X"
+			(at 335.28 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 335.28 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8a6a1a5-5cb4-49a3-81b9-29fa6fb3a8d9")
+		)
+		(pin "1"
+			(uuid "bcba74e6-2c0b-41e6-84cd-199d5f47fe3e")
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/4d04cddb-fc2a-4f2d-a826-26b8b4690eb4"
+					(reference "R49")
 					(unit 1)
 				)
 			)
