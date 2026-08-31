@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.4-9.0.4-0~ubuntu22.04.1"
+      "Version": "9.0.9-9.0.9~ubuntu22.04.1"
     },
-    "CreationDate": "2026-01-05T08:42:25-05:00"
+    "CreationDate": "2026-08-31T08:44:57-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -28,7 +28,7 @@
       "PadToPad": 0.15,
       "PadToTrack": 0.15,
       "TrackToTrack": 0.15,
-      "MinLineWidth": 0.12
+      "MinLineWidth": 0.15
     },
     {
       "Layers": "Inner",
@@ -48,42 +48,42 @@
     },
     {
       "Path": "psc_daughter_brd-In1_Cu - L2-gnd.gbr",
-      "FileFunction": "Copper,L5,Inr",
+      "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "psc_daughter_brd-In2_Cu - L3-sig.gbr",
-      "FileFunction": "Copper,L7,Inr",
+      "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "psc_daughter_brd-In3_Cu - L4-gnd.gbr",
-      "FileFunction": "Copper,L9,Inr",
+      "FileFunction": "Copper,L4,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "psc_daughter_brd-In4_Cu - L5-pwr.gbr",
-      "FileFunction": "Copper,L11,Inr",
+      "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "psc_daughter_brd-In5_Cu - L6-pwr.gbr",
-      "FileFunction": "Copper,L13,Inr",
+      "FileFunction": "Copper,L6,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "psc_daughter_brd-In6_Cu - L7-gnd.gbr",
-      "FileFunction": "Copper,L15,Inr",
+      "FileFunction": "Copper,L7,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "psc_daughter_brd-In7_Cu - L8-sig.gbr",
-      "FileFunction": "Copper,L17,Inr",
+      "FileFunction": "Copper,L8,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "psc_daughter_brd-In8_Cu - L9-gnd.gbr",
-      "FileFunction": "Copper,L19,Inr",
+      "FileFunction": "Copper,L9,Inr",
       "FilePolarity": "Positive"
     },
     {
@@ -120,6 +120,11 @@
       "Path": "psc_daughter_brd-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
+    },
+    {
+      "Path": "psc_daughter_brd-User_Drawings.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
     },
     {
       "Path": "psc_daughter_brd-Edge_Cuts.gbr",
